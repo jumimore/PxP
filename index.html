@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test PxP – Formación para Formadores Viales | DGT-AVAE-IMOVIAL</title>
+  <meta name="description" content="Plataforma de tests interactivos para la formación PxP (Permiso por Puntos) de la DGT. Practica todos los temas del manual de formadores viales.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#38bdf8">
+</head>
+<body>
+
+  <!-- ===== SCREEN 1: HOME ===== -->
+  <div id="screen-home" class="screen active">
+    <header class="app-header">
+      <div class="header-logo">
+        <div class="logo-badge">PxP</div>
+        <div class="header-titles">
+          <h1 class="app-title">Test PxP</h1>
+          <p class="app-subtitle">Formación para Formadores Viales · DGT-AVAE-IMOVIAL</p>
+        </div>
+      </div>
+      <div class="header-stats" id="header-stats">
+        <div class="stat-chip" id="stat-total">
+          <span class="stat-icon">📚</span>
+          <span class="stat-val" id="stat-total-val">0</span>
+          <span class="stat-lbl">Resueltas</span>
+        </div>
+        <div class="stat-chip" id="stat-pct">
+          <span class="stat-icon">🎯</span>
+          <span class="stat-val" id="stat-pct-val">—</span>
+          <span class="stat-lbl">Acierto</span>
+        </div>
+        <div class="stat-chip" id="stat-streak">
+          <span class="stat-icon">🔥</span>
+          <span class="stat-val" id="stat-streak-val">0</span>
+          <span class="stat-lbl">Racha</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="home-main">
+      <div class="home-hero">
+        <p class="home-hero-text">Elige una parte del manual para comenzar</p>
+        <div class="decorative-line"></div>
+      </div>
+
+      <div class="parts-grid">
+        <!-- Parte I -->
+        <div class="part-card" id="btn-parte1" onclick="navigate('screen-temas', 1)">
+          <div class="part-card-header">
+            <div class="part-number">I</div>
+            <div class="part-badge">14 Temas</div>
+          </div>
+          <div class="part-card-body">
+            <h2 class="part-card-title">Fundamentos del Programa</h2>
+            <p class="part-card-desc">Sensibilización y Reeducación Vial · Sistema de Puntos · Normativa · Factores de Riesgo</p>
+          </div>
+          <div class="part-card-footer">
+            <div class="part-progress-bar"><div class="part-progress-fill" id="p1-progress" style="width:0%"></div></div>
+            <span class="part-progress-label" id="p1-pct">Sin empezar</span>
+            <div class="part-card-cta">Comenzar →</div>
+          </div>
+        </div>
+
+        <!-- Parte II -->
+        <div class="part-card part-card-ii" id="btn-parte2" onclick="navigate('screen-temas', 2)">
+          <div class="part-card-header">
+            <div class="part-number">II</div>
+            <div class="part-badge">5 Temas</div>
+          </div>
+          <div class="part-card-body">
+            <h2 class="part-card-title">Competencias del Formador</h2>
+            <p class="part-card-desc">Facilitación del Aprendizaje · Motivación · Dinamización · Comunicación · Actitudes</p>
+          </div>
+          <div class="part-card-footer">
+            <div class="part-progress-bar"><div class="part-progress-fill" id="p2-progress" style="width:0%"></div></div>
+            <span class="part-progress-label" id="p2-pct">Sin empezar</span>
+            <div class="part-card-cta">Comenzar →</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick actions -->
+      <div class="quick-actions">
+        <button class="quick-btn" onclick="startRandomTest()" id="btn-random">
+          <span class="quick-icon">🎲</span>
+          <div>
+            <div class="quick-title">Test Aleatorio</div>
+            <div class="quick-desc">Preguntas de todo el manual</div>
+          </div>
+        </button>
+        <button class="quick-btn" onclick="showHistory()" id="btn-history">
+          <span class="quick-icon">📊</span>
+          <div>
+            <div class="quick-title">Mi Historial</div>
+            <div class="quick-desc">Ver resultados anteriores</div>
+          </div>
+        </button>
+        <button class="quick-btn" onclick="resetProgress()" id="btn-reset">
+          <span class="quick-icon">🔄</span>
+          <div>
+            <div class="quick-title">Reiniciar</div>
+            <div class="quick-desc">Borrar todo el progreso</div>
+          </div>
+        </button>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <p>Manual de Formadores PxP · DGT-AVAE-IMOVIAL · © 2025 IMOVIAL | AVAE</p>
+    </footer>
+  </div>
+
+  <!-- ===== SCREEN 2: TEMA SELECTION ===== -->
+  <div id="screen-temas" class="screen">
+    <div class="screen-nav">
+      <button class="nav-back" onclick="navigate('screen-home')">← Inicio</button>
+      <h2 class="screen-nav-title" id="temas-title">Parte I</h2>
+    </div>
+    <div class="temas-intro">
+      <p class="temas-intro-text" id="temas-intro-text"></p>
+      <button class="btn-test-all" id="btn-test-all" onclick="startPartTest()">
+        🎯 Test Completo de la Parte
+      </button>
+    </div>
+    <div class="temas-grid" id="temas-grid"></div>
+  </div>
+
+  <!-- ===== SCREEN 3: FORMAT SELECTION ===== -->
+  <div id="screen-formato" class="screen">
+    <div class="screen-nav">
+      <button class="nav-back" id="formato-back-btn">← Volver</button>
+      <h2 class="screen-nav-title" id="formato-title">Elige el formato</h2>
+    </div>
+    <div class="formato-content">
+      <div class="tema-selected-info" id="tema-selected-info"></div>
+      <h3 class="formato-subtitle">¿Cuántas preguntas quieres?</h3>
+      <div class="formato-grid">
+        <div class="formato-card" onclick="startTest(5)">
+          <div class="formato-icon">⚡</div>
+          <div class="formato-name">Mini Test</div>
+          <div class="formato-q">5 preguntas</div>
+          <div class="formato-desc">Repaso rápido</div>
+        </div>
+        <div class="formato-card" onclick="startTest(10)">
+          <div class="formato-icon">📝</div>
+          <div class="formato-name">Estándar</div>
+          <div class="formato-q">10 preguntas</div>
+          <div class="formato-desc">Práctica normal</div>
+        </div>
+        <div class="formato-card" onclick="startTest(20)">
+          <div class="formato-icon">🏆</div>
+          <div class="formato-name">Completo</div>
+          <div class="formato-q">20 preguntas</div>
+          <div class="formato-desc">Evaluación completa</div>
+        </div>
+        <div class="formato-card formato-custom">
+          <div class="formato-icon">🎛️</div>
+          <div class="formato-name">Personalizado</div>
+          <div class="formato-slider-wrap">
+            <input type="range" id="custom-slider" min="3" max="30" value="15"
+              oninput="document.getElementById('custom-val').textContent=this.value">
+            <span id="custom-val">15</span> preguntas
+          </div>
+          <button class="btn-custom-start" onclick="startTest(parseInt(document.getElementById('custom-slider').value))">
+            Comenzar →
+          </button>
+        </div>
+      </div>
+      <div class="tema-stats-box" id="tema-stats-box"></div>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN 4: TEST ===== -->
+  <div id="screen-test" class="screen">
+    <div class="test-header">
+      <button class="nav-back test-exit" onclick="confirmExit()">✕ Salir</button>
+      <div class="test-meta" id="test-meta">
+        <span id="test-topic-label" class="test-topic-label"></span>
+      </div>
+      <div class="test-counter" id="test-counter">1 / 10</div>
+    </div>
+    <div class="test-progress-wrap">
+      <div class="test-progress-bar">
+        <div class="test-progress-fill" id="test-progress-fill"></div>
+      </div>
+    </div>
+    <div class="test-body">
+      <div class="question-card" id="question-card">
+        <div class="question-ref" id="question-ref"></div>
+        <p class="question-text" id="question-text"></p>
+        <div class="options-grid" id="options-grid"></div>
+      </div>
+      <div class="answer-feedback" id="answer-feedback" style="display:none;">
+        <div class="feedback-icon" id="feedback-icon"></div>
+        <div class="feedback-title" id="feedback-title"></div>
+        <p class="feedback-explanation" id="feedback-explanation"></p>
+        <button class="btn-next" id="btn-next" onclick="nextQuestion()">Siguiente →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== SCREEN 5: RESULTS ===== -->
+  <div id="screen-results" class="screen">
+    <div class="results-container">
+      <div class="results-header">
+        <h2 class="results-title" id="results-title">Resultado</h2>
+        <div class="score-circle-wrap">
+          <svg class="score-circle" viewBox="0 0 120 120">
+            <circle class="score-circle-bg" cx="60" cy="60" r="50"/>
+            <circle class="score-circle-fill" id="score-circle-fill" cx="60" cy="60" r="50"
+              stroke-dasharray="314" stroke-dashoffset="314"/>
+          </svg>
+          <div class="score-number" id="score-number">0%</div>
+        </div>
+        <div class="score-badge" id="score-badge">—</div>
+        <div class="score-detail" id="score-detail"></div>
+      </div>
+
+      <div class="results-actions">
+        <button class="btn-results btn-retry" onclick="retryTest()">🔁 Repetir Test</button>
+        <button class="btn-results btn-new" onclick="newTestSameTema()">📝 Nuevo Test</button>
+        <button class="btn-results btn-home" onclick="navigate('screen-home')">🏠 Inicio</button>
+      </div>
+
+      <div class="review-section">
+        <h3 class="review-title">📋 Revisión de respuestas</h3>
+        <div id="review-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HISTORY MODAL ===== -->
+  <div id="history-modal" class="modal-overlay" style="display:none;" onclick="closeHistory(event)">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeHistory()">✕</button>
+      <h2 class="modal-title">📊 Historial de Tests</h2>
+      <div id="history-content"></div>
+    </div>
+  </div>
+
+  <!-- ===== EXIT CONFIRM MODAL ===== -->
+  <div id="exit-modal" class="modal-overlay" style="display:none;">
+    <div class="modal-box modal-small">
+      <h2 class="modal-title">¿Salir del test?</h2>
+      <p style="color:var(--text-muted);margin-bottom:1.5rem;">Se perderá tu progreso actual.</p>
+      <div class="modal-actions">
+        <button class="btn-results btn-retry" onclick="document.getElementById('exit-modal').style.display='none'">Continuar</button>
+        <button class="btn-results btn-home" onclick="forceExit()">Salir</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/data/parte1.js"></script>
+  <script src="js/data/parte2.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((registration) => {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, (err) => {
+            console.log('ServiceWorker registration failed: ', err);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
