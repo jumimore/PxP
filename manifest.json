@@ -1,7 +1,7 @@
 {
   "short_name": "Test PxP",
   "name": "Simulador Test PxP Formadores",
-  "description": "Aplicación de simulación de test para Formadores PxP. Creado a partir del Manual DGT-AVAE.",
+  "description": "Aplicación de simulación de test para Formadores PxP. Creado a partir del Manual.",
   "icons": [
     {
       "src": "./img/icon.svg",

@@ -8,6 +8,28 @@ let currentTema   = null;   // objeto tema
 let currentPool   = [];     // preguntas del test activo
 const STORAGE_KEY = 'pxp_progress';
 
+// ── Theme ─────────────────────────────────────────────────────
+function initTheme() {
+  const savedTheme = localStorage.getItem('pxp_theme') || 'dark';
+  if (savedTheme === 'light') {
+    document.body.classList.add('light-theme');
+    const icon = document.getElementById('theme-icon');
+    if (icon) icon.textContent = '🌙';
+  } else {
+    document.body.classList.remove('light-theme');
+    const icon = document.getElementById('theme-icon');
+    if (icon) icon.textContent = '☀️';
+  }
+}
+
+function toggleTheme() {
+  document.body.classList.toggle('light-theme');
+  const isLight = document.body.classList.contains('light-theme');
+  localStorage.setItem('pxp_theme', isLight ? 'light' : 'dark');
+  const icon = document.getElementById('theme-icon');
+  if (icon) icon.textContent = isLight ? '🌙' : '☀️';
+}
+
 // ── SVG Gradient ──────────────────────────────────────────────
 document.querySelector('html').insertAdjacentHTML('afterbegin',
   `<svg width="0" height="0" style="position:absolute">
@@ -268,6 +290,7 @@ function showToast(msg) {
 
 // ── Init ──────────────────────────────────────────────────────
 window.addEventListener('DOMContentLoaded', () => {
+  initTheme();
   updateStats();
   renderParteProgress();
 });
