@@ -10,7 +10,7 @@ const STORAGE_KEY = 'pxp_progress';
 
 // ── Theme ─────────────────────────────────────────────────────
 function initTheme() {
-  const savedTheme = localStorage.getItem('pxp_theme') || 'dark';
+  const savedTheme = localStorage.getItem('pxp_theme') || 'light';
   if (savedTheme === 'light') {
     document.body.classList.add('light-theme');
     const icon = document.getElementById('theme-icon');
