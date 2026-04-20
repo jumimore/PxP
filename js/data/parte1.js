@@ -43,9 +43,9 @@ const PARTE1 = {
           id: "p1t0-004",
           pregunta: "¿Cuál es el objetivo principal del sistema de permiso por puntos?",
           opciones: [
-            "Aumentar la recaudación por multas", 
-            "Modificar actitudes y comportamientos de los conductores infractores", 
-            "Reducir el número de vehículos en circulación", 
+            "Aumentar la recaudación por multas",
+            "Modificar actitudes y comportamientos de los conductores infractores",
+            "Reducir el número de vehículos en circulación",
             "Penalizar económicamente las infracciones graves"
           ],
           correcta: 1,
@@ -56,9 +56,9 @@ const PARTE1 = {
           id: "p1t0-005",
           pregunta: "¿Qué sucede cuando un conductor pierde todos sus puntos?",
           opciones: [
-            "Debe pagar una multa elevada para recuperar el permiso", 
-            "Queda inhabilitado para conducir y debe realizar un curso de sensibilización", 
-            "Su permiso queda suspendido 6 meses automáticamente", 
+            "Debe pagar una multa elevada para recuperar el permiso",
+            "Queda inhabilitado para conducir y debe realizar un curso de sensibilización",
+            "Su permiso queda suspendido 6 meses automáticamente",
             "Debe superar de nuevo el examen teórico"
           ],
           correcta: 1,
@@ -85,9 +85,9 @@ const PARTE1 = {
           id: "p1t0-008",
           pregunta: "¿Qué tipo de infracciones conllevan la pérdida de 6 puntos en el permiso?",
           opciones: [
-            "Conducir con tasa de alcohol entre 0,5 y 0,8 g/l", 
-            "Conducir hablando por el teléfono móvil", 
-            "No usar el cinturón de seguridad", 
+            "Conducir con tasa de alcohol entre 0,5 y 0,8 g/l",
+            "Conducir hablando por el teléfono móvil",
+            "No usar el cinturón de seguridad",
             "Conducir con una tasa de alcohol superior a 1,2 g/l o con presencia de drogas"
           ],
           correcta: 3,
@@ -106,9 +106,9 @@ const PARTE1 = {
           id: "p1t0-010",
           pregunta: "¿A qué conductores se aplica un límite de alcoholemia más estricto (0,3 g/l en sangre)?",
           opciones: [
-            "A todos los conductores mayores de 65 años", 
-            "A los conductores noveles y a los profesionales del transporte", 
-            "A los conductores que hayan perdido más de 4 puntos", 
+            "A todos los conductores mayores de 65 años",
+            "A los conductores noveles y a los profesionales del transporte",
+            "A los conductores que hayan perdido más de 4 puntos",
             "A los conductores durante el período nocturno"
           ],
           correcta: 1,
@@ -119,8 +119,8 @@ const PARTE1 = {
           id: "p1t0-011",
           pregunta: "¿Cuántos puntos conlleva la pérdida por no respetar el uso del cinturón de seguridad, el casco o los sistemas de retención infantil?",
           opciones: ["3 puntos", "4 puntos", "2 puntos", "6 puntos"],
-          correcta: 0,
-          explicacion: "No usar el cinturón de seguridad, el casco u otros elementos de protección obligatorios conlleva la pérdida de 3 puntos.",
+          correcta: 1,
+          explicacion: "Desde la reforma de la Ley de Tráfico (Ley 18/2021), no usar el cinturón de seguridad, el casco u otros elementos de protección obligatorios (SRI) conlleva la pérdida de 4 puntos.",
           referencia: "Tema 0 – Infracciones y puntos"
         },
         {
@@ -141,19 +141,19 @@ const PARTE1 = {
         },
         {
           id: "p1t0-014",
-          pregunta: "¿Cuántos puntos se pierden por conducir usando el teléfono móvil sin manos libres?",
+          pregunta: "¿Cuántos puntos se pierden por conducir sujetando con la mano dispositivos de telefonía móvil?",
           opciones: ["6 puntos", "3 puntos", "4 puntos", "2 puntos"],
-          correcta: 1,
-          explicacion: "El uso del teléfono móvil sin dispositivo de manos libres o auricular durante la conducción conlleva la pérdida de 3 puntos.",
+          correcta: 0,
+          explicacion: "Conducir sujetando con la mano el teléfono móvil es una infracción grave que conlleva la pérdida de 6 puntos (Ley 18/2021). Si se manipula estando en un soporte sin sujetarlo, son 3 puntos.",
           referencia: "Tema 0 – Infracciones y puntos"
         },
         {
           id: "p1t0-015",
           pregunta: "¿Cuál es la finalidad educativa de los cursos de sensibilización y reeducación vial del sistema PxP?",
           opciones: [
-            "Incrementar los ingresos del Estado", 
-            "Humanizar la seguridad vial y fomentar el cambio de actitudes", 
-            "Enseñar normativa exclusivamente", 
+            "Incrementar los ingresos del Estado",
+            "Humanizar la seguridad vial y fomentar el cambio de actitudes",
+            "Enseñar normativa exclusivamente",
             "Penalizar al conductor reincidente"
           ],
           correcta: 1,
@@ -164,9 +164,9 @@ const PARTE1 = {
           id: "p1t0-016",
           pregunta: "¿Qué elemento es obligatorio en todo curso de recuperación de puntos según el manual?",
           opciones: [
-            "Un examen teórico de circulación", 
-            "La intervención de una víctima o familiar de víctima de tráfico", 
-            "Una prueba de conducción en circuito", 
+            "Un examen teórico de circulación",
+            "La intervención de una víctima o familiar de víctima de tráfico",
+            "Una prueba de conducción en circuito",
             "Una sesión con el psicólogo de tráfico de la DGT"
           ],
           correcta: 1,
@@ -185,9 +185,9 @@ const PARTE1 = {
           id: "p1t0-018",
           pregunta: "¿En qué momento puede empezar a recuperar puntos un conductor novel?",
           opciones: [
-            "Desde el primer día del permiso", 
-            "Tras 1 año sin infracciones con pérdida de puntos", 
-            "Al cumplirse el segundo año desde la expedición del permiso", 
+            "Desde el primer día del permiso",
+            "Tras 1 año sin infracciones con pérdida de puntos",
+            "Al cumplirse el segundo año desde la expedición del permiso",
             "Tras completar la fase de ampliación del saldo"
           ],
           correcta: 2,
@@ -206,9 +206,9 @@ const PARTE1 = {
           id: "p1t0-020",
           pregunta: "¿Qué le ocurre al conductor que pierde todos sus puntos (pierde el permiso) y vuelve a conducir sin obtenerlo de nuevo?",
           opciones: [
-            "Se le aplica únicamente una sanción económica", 
-            "Incurre en un delito penal por conducción sin permiso vigente", 
-            "Se le deniega permanentemente la posibilidad de obtener el permiso", 
+            "Se le aplica únicamente una sanción económica",
+            "Incurre en un delito penal por conducción sin permiso vigente",
+            "Se le deniega permanentemente la posibilidad de obtener el permiso",
             "Se le exige realizar un examen médico"
           ],
           correcta: 1,
@@ -310,9 +310,9 @@ const PARTE1 = {
           id: "p1t1-003",
           pregunta: "¿Cuál de los siguientes factores de riesgo es más frecuente en hombres según los estudios?",
           opciones: [
-            "Mayor uso del transporte público", 
-            "Mayor vulnerabilidad como peatones", 
-            "Mayor exposición al exceso de velocidad, alcohol y distracción", 
+            "Mayor uso del transporte público",
+            "Mayor vulnerabilidad como peatones",
+            "Mayor exposición al exceso de velocidad, alcohol y distracción",
             "Mayor número de desplazamientos cortos"
           ],
           correcta: 2,
@@ -323,9 +323,9 @@ const PARTE1 = {
           id: "p1t1-004",
           pregunta: "¿Qué significa 'igualdad efectiva' en el contexto de la educación vial?",
           opciones: [
-            "Tratar a todos los alumnos exactamente igual, sin distinción alguna", 
-            "No solo ofrecer las mismas oportunidades, sino eliminar las barreras que impiden ejercerlas", 
-            "Prohibir todo tipo de diferenciación en los materiales didácticos", 
+            "Tratar a todos los alumnos exactamente igual, sin distinción alguna",
+            "No solo ofrecer las mismas oportunidades, sino eliminar las barreras que impiden ejercerlas",
+            "Prohibir todo tipo de diferenciación en los materiales didácticos",
             "Impartir el mismo contenido exclusivamente en formato digital"
           ],
           correcta: 1,
@@ -336,9 +336,9 @@ const PARTE1 = {
           id: "p1t1-005",
           pregunta: "¿Cuál es el impacto de los estereotipos de género en la conducción, según el manual?",
           opciones: [
-            "Mejoran la percepción del riesgo en los conductores masculinos", 
-            "Son inofensivos para el aprendizaje de la conducción", 
-            "Pueden generar exceso de confianza en alumnos y inseguridad en alumnas", 
+            "Mejoran la percepción del riesgo en los conductores masculinos",
+            "Son inofensivos para el aprendizaje de la conducción",
+            "Pueden generar exceso de confianza en alumnos y inseguridad en alumnas",
             "Solo afectan a conductores noveles"
           ],
           correcta: 2,
@@ -349,9 +349,9 @@ const PARTE1 = {
           id: "p1t1-006",
           pregunta: "En materia de movilidad cotidiana, ¿qué patrón diferencial se observa entre hombres y mujeres?",
           opciones: [
-            "Las mujeres realizan más viajes laborales de larga distancia", 
-            "Los hombres usan más el transporte público", 
-            "Las mujeres realizan más desplazamientos cortos relacionados con tareas de cuidado", 
+            "Las mujeres realizan más viajes laborales de larga distancia",
+            "Los hombres usan más el transporte público",
+            "Las mujeres realizan más desplazamientos cortos relacionados con tareas de cuidado",
             "Hombres y mujeres tienen patrones de movilidad idénticos"
           ],
           correcta: 2,
@@ -362,9 +362,9 @@ const PARTE1 = {
           id: "p1t1-007",
           pregunta: "¿Qué estrategia educativa diferenciada recomienda el manual para los alumnos masculinos?",
           opciones: [
-            "Reforzar su confianza y autonomía al volante", 
-            "Trabajar la autocontención, la empatía y la percepción del riesgo", 
-            "Enseñar conducción defensiva con énfasis en maniobras avanzadas", 
+            "Reforzar su confianza y autonomía al volante",
+            "Trabajar la autocontención, la empatía y la percepción del riesgo",
+            "Enseñar conducción defensiva con énfasis en maniobras avanzadas",
             "Proporcionar más horas de prácticas en circuito"
           ],
           correcta: 1,
@@ -375,9 +375,9 @@ const PARTE1 = {
           id: "p1t1-008",
           pregunta: "¿Cómo debe el profesorado aplicar la perspectiva de género en la evaluación del alumnado?",
           opciones: [
-            "Aplicando criterios más exigentes a los alumnos varones", 
-            "Evaluando de forma diferente según el género para compensar desigualdades", 
-            "Aplicando criterios uniformes, transparentes y libres de sesgo", 
+            "Aplicando criterios más exigentes a los alumnos varones",
+            "Evaluando de forma diferente según el género para compensar desigualdades",
+            "Aplicando criterios uniformes, transparentes y libres de sesgo",
             "Priorizando la actitud sobre la competencia técnica"
           ],
           correcta: 2,
@@ -396,9 +396,9 @@ const PARTE1 = {
           id: "p1t1-010",
           pregunta: "¿Por qué el testimonio femenino de víctimas en los cursos PxP aporta un valor especial?",
           opciones: [
-            "Porque las mujeres son mejores comunicadoras que los hombres", 
-            "Porque evidencia cómo las desigualdades de género también influyen en el impacto social del siniestro", 
-            "Porque reduce el tiempo de la sesión formativa", 
+            "Porque las mujeres son mejores comunicadoras que los hombres",
+            "Porque evidencia cómo las desigualdades de género también influyen en el impacto social del siniestro",
+            "Porque reduce el tiempo de la sesión formativa",
             "Porque sustituye la explicación técnica de la normativa"
           ],
           correcta: 1,
@@ -409,9 +409,9 @@ const PARTE1 = {
           id: "p1t1-011",
           pregunta: "¿Cuál es la clave didáctica fundamental relacionada con la igualdad de género en el aula de conducción?",
           opciones: [
-            "No hablar de diferencias de género para no discriminar", 
-            "Usar lenguaje inclusivo y analizar casos de siniestralidad con enfoque de género", 
-            "Separar a alumnos y alumnas en grupos distintos", 
+            "No hablar de diferencias de género para no discriminar",
+            "Usar lenguaje inclusivo y analizar casos de siniestralidad con enfoque de género",
+            "Separar a alumnos y alumnas en grupos distintos",
             "Adaptar las normas de tráfico según el género"
           ],
           correcta: 1,
@@ -422,9 +422,9 @@ const PARTE1 = {
           id: "p1t1-012",
           pregunta: "¿Qué principio pedagógico resume la idea de enseñar en igualdad según el manual?",
           opciones: [
-            "Tratar a todos igual sin considerar sus necesidades individuales", 
-            "Enseñar con equidad, atendiendo a las necesidades reales de cada persona", 
-            "Adaptar la normativa a las características de cada conductor", 
+            "Tratar a todos igual sin considerar sus necesidades individuales",
+            "Enseñar con equidad, atendiendo a las necesidades reales de cada persona",
+            "Adaptar la normativa a las características de cada conductor",
             "Minimizar las diferencias entre alumnos para evitar conflictos"
           ],
           correcta: 1,
@@ -435,9 +435,9 @@ const PARTE1 = {
           id: "p1t1-013",
           pregunta: "¿Qué estrategia educativa recomienda el manual para las alumnas conductoras?",
           opciones: [
-            "Trabajar la autocontención y la reducción de velocidad", 
-            "Reforzar la confianza, la autonomía y la toma de decisiones seguras", 
-            "Aumentar las horas de práctica nocturna", 
+            "Trabajar la autocontención y la reducción de velocidad",
+            "Reforzar la confianza, la autonomía y la toma de decisiones seguras",
+            "Aumentar las horas de práctica nocturna",
             "Reducir el control sobre las emociones durante la conducción"
           ],
           correcta: 1,
@@ -448,9 +448,9 @@ const PARTE1 = {
           id: "p1t1-014",
           pregunta: "¿Cuál es la razón por la que la igualdad de género no es solo una cuestión de justicia social en seguridad vial?",
           opciones: [
-            "Porque los hombres tienen más siniestros y deben pagar más impuestos", 
-            "Porque es un requisito para la eficacia de las políticas de seguridad vial", 
-            "Porque la ley exige la paridad de género en las autoescuelas", 
+            "Porque los hombres tienen más siniestros y deben pagar más impuestos",
+            "Porque es un requisito para la eficacia de las políticas de seguridad vial",
+            "Porque la ley exige la paridad de género en las autoescuelas",
             "Porque mejora la rentabilidad de las empresas de transporte"
           ],
           correcta: 1,
@@ -461,9 +461,9 @@ const PARTE1 = {
           id: "p1t1-015",
           pregunta: "¿Cuál es el papel del profesorado vial en relación con la igualdad de género?",
           opciones: [
-            "Ignorar las diferencias de género para no discriminar", 
-            "Actuar como modelo de comportamiento igualitario e integrar la igualdad en su práctica docente", 
-            "Remitir a los alumnos a cursos específicos de igualdad", 
+            "Ignorar las diferencias de género para no discriminar",
+            "Actuar como modelo de comportamiento igualitario e integrar la igualdad en su práctica docente",
+            "Remitir a los alumnos a cursos específicos de igualdad",
             "Evitar cualquier referencia a datos estadísticos diferenciados por género"
           ],
           correcta: 1,
@@ -484,9 +484,9 @@ const PARTE1 = {
           id: "p1t2-001",
           pregunta: "¿Por qué el término 'siniestro vial' está reemplazando progresivamente al de 'accidente de tráfico'?",
           opciones: [
-            "Porque 'siniestro' es un término más moderno y técnico", 
-            "Porque 'accidente' implica azar mientras que 'siniestro' subraya su carácter prevenible", 
-            "Porque así lo establece la normativa comunitaria europea", 
+            "Porque 'siniestro' es un término más moderno y técnico",
+            "Porque 'accidente' implica azar mientras que 'siniestro' subraya su carácter prevenible",
+            "Porque así lo establece la normativa comunitaria europea",
             "Porque es el término preferido por las aseguradoras"
           ],
           correcta: 1,
@@ -513,9 +513,9 @@ const PARTE1 = {
           id: "p1t2-004",
           pregunta: "¿Cuáles son los tres factores del sistema vial que intervienen en los siniestros?",
           opciones: [
-            "Conductor, vehículo y normativa", 
-            "Humano, vehículo y vía/entorno", 
-            "Velocidad, alcohol y distracción", 
+            "Conductor, vehículo y normativa",
+            "Humano, vehículo y vía/entorno",
+            "Velocidad, alcohol y distracción",
             "Infraestructura, legislación y formación"
           ],
           correcta: 1,
@@ -526,9 +526,9 @@ const PARTE1 = {
           id: "p1t2-005",
           pregunta: "¿Cuál es el fundamento del enfoque 'Sistema Seguro' adoptado por la UE y la OMS?",
           opciones: [
-            "Toda responsabilidad recae en el conductor", 
-            "Ningún error humano debe pagarse con una vida", 
-            "La tecnología puede eliminar todos los siniestros", 
+            "Toda responsabilidad recae en el conductor",
+            "Ningún error humano debe pagarse con una vida",
+            "La tecnología puede eliminar todos los siniestros",
             "La velocidad es el único factor de riesgo que importa"
           ],
           correcta: 1,
@@ -539,9 +539,9 @@ const PARTE1 = {
           id: "p1t2-006",
           pregunta: "¿Cuál es el objetivo de la Estrategia Española de Seguridad Vial 2030 en cuanto a víctimas?",
           opciones: [
-            "Eliminar completamente los siniestros mortales", 
-            "Reducir a la mitad el número de víctimas mortales y heridos graves", 
-            "Reducir en un 25% los fallecidos", 
+            "Eliminar completamente los siniestros mortales",
+            "Reducir a la mitad el número de víctimas mortales y heridos graves",
+            "Reducir en un 25% los fallecidos",
             "Alcanzar cero víctimas en vías urbanas"
           ],
           correcta: 1,
@@ -560,9 +560,9 @@ const PARTE1 = {
           id: "p1t2-008",
           pregunta: "¿Qué principio del Sistema Seguro establece que conductores, administraciones, fabricantes y formadores comparten la tarea de prevenir?",
           opciones: [
-            "Tolerancia al error", 
-            "Responsabilidad compartida", 
-            "Reducción del impacto", 
+            "Tolerancia al error",
+            "Responsabilidad compartida",
+            "Reducción del impacto",
             "Aprendizaje continuo"
           ],
           correcta: 1,
@@ -573,9 +573,9 @@ const PARTE1 = {
           id: "p1t2-009",
           pregunta: "¿Cuál de las siguientes afirmaciones sobre los siniestros viales es correcta según el enfoque del manual?",
           opciones: [
-            "Los siniestros son inevitables porque el error humano es impredecible", 
-            "Los siniestros son el resultado de una cadena de decisiones, errores o condiciones prevenibles", 
-            "Los siniestros dependen principalmente del azar y las condiciones meteorológicas", 
+            "Los siniestros son inevitables porque el error humano es impredecible",
+            "Los siniestros son el resultado de una cadena de decisiones, errores o condiciones prevenibles",
+            "Los siniestros dependen principalmente del azar y las condiciones meteorológicas",
             "Los siniestros solo pueden prevenirse con tecnología avanzada"
           ],
           correcta: 1,
@@ -586,9 +586,9 @@ const PARTE1 = {
           id: "p1t2-010",
           pregunta: "¿Qué tres niveles del factor humano debe abordar el formador en sus clases?",
           opciones: [
-            "Técnico, económico y social", 
-            "Cognitivo, motivacional/emocional y social", 
-            "Perceptivo, motor y actitudinal", 
+            "Técnico, económico y social",
+            "Cognitivo, motivacional/emocional y social",
+            "Perceptivo, motor y actitudinal",
             "Normativo, preventivo y reactivo"
           ],
           correcta: 1,
@@ -607,9 +607,9 @@ const PARTE1 = {
           id: "p1t2-012",
           pregunta: "¿Por qué la OMS considera los siniestros viales una 'epidemia silenciosa'?",
           opciones: [
-            "Porque ocurren principalmente de noche sin testigos", 
-            "Porque generan mortalidad, discapacidad y costes sanitarios comparables a enfermedades graves", 
-            "Porque los medios de comunicación no los difunden suficientemente", 
+            "Porque ocurren principalmente de noche sin testigos",
+            "Porque generan mortalidad, discapacidad y costes sanitarios comparables a enfermedades graves",
+            "Porque los medios de comunicación no los difunden suficientemente",
             "Porque afectan principalmente a colectivos desfavorecidos"
           ],
           correcta: 1,
@@ -620,9 +620,9 @@ const PARTE1 = {
           id: "p1t2-013",
           pregunta: "¿Cuál es el mensaje clave del manual respecto a los siniestros viales para transmitir en el aula?",
           opciones: [
-            "La velocidad es siempre el factor determinante en un siniestro", 
-            "No existen siniestros inevitables, sino errores corregibles", 
-            "El factor humano no puede modificarse con educación", 
+            "La velocidad es siempre el factor determinante en un siniestro",
+            "No existen siniestros inevitables, sino errores corregibles",
+            "El factor humano no puede modificarse con educación",
             "La tecnología eliminará pronto todos los siniestros"
           ],
           correcta: 1,
@@ -633,9 +633,9 @@ const PARTE1 = {
           id: "p1t2-014",
           pregunta: "¿Qué tipo de consecuencias deja un siniestro vial más allá de las físicas?",
           opciones: [
-            "Solo legales y económicas", 
-            "Psicológicas y sociales: estrés postraumático, culpa, duelo", 
-            "Únicalmente efectos sobre el patrimonio de las víctimas", 
+            "Solo legales y económicas",
+            "Psicológicas y sociales: estrés postraumático, culpa, duelo",
+            "Únicalmente efectos sobre el patrimonio de las víctimas",
             "Solo consecuencias familiares a corto plazo"
           ],
           correcta: 1,
@@ -646,9 +646,9 @@ const PARTE1 = {
           id: "p1t2-015",
           pregunta: "Según el manual, ¿qué hace que un 'incidente vial' sea diferente a un 'siniestro vial'?",
           opciones: [
-            "El incidente ocurre en zonas urbanas y el siniestro en carretera", 
-            "El incidente no tiene consecuencias graves y sirve como indicador de riesgo", 
-            "El siniestro solo implica daños materiales, el incidente lesiones personales", 
+            "El incidente ocurre en zonas urbanas y el siniestro en carretera",
+            "El incidente no tiene consecuencias graves y sirve como indicador de riesgo",
+            "El siniestro solo implica daños materiales, el incidente lesiones personales",
             "No hay diferencia conceptual entre ambos términos"
           ],
           correcta: 1,
@@ -734,9 +734,9 @@ const PARTE1 = {
           id: "p1t3-001",
           pregunta: "¿Cuál es la principal causa de fallecimiento y discapacidad permanente en los siniestros de tráfico?",
           opciones: [
-            "Lesiones torácicas y abdominales", 
-            "Traumatismos craneoencefálicos y lesiones en cabeza y cuello", 
-            "Fracturas en extremidades inferiores", 
+            "Lesiones torácicas y abdominales",
+            "Traumatismos craneoencefálicos y lesiones en cabeza y cuello",
+            "Fracturas en extremidades inferiores",
             "Lesiones pélvicas"
           ],
           correcta: 1,
@@ -763,9 +763,9 @@ const PARTE1 = {
           id: "p1t3-004",
           pregunta: "¿Por qué las lesiones en siniestros viales son consideradas un problema de salud pública?",
           opciones: [
-            "Porque solo afectan a conductores de transporte público", 
-            "Porque son la primera causa de discapacidad adquirida en la edad laboral y afectan a menores de 35 años", 
-            "Porque generan tasas de mortalidad superiores a las enfermedades cardiovasculares", 
+            "Porque solo afectan a conductores de transporte público",
+            "Porque son la primera causa de discapacidad adquirida en la edad laboral y afectan a menores de 35 años",
+            "Porque generan tasas de mortalidad superiores a las enfermedades cardiovasculares",
             "Porque afectan únicamente en zonas rurales"
           ],
           correcta: 1,
@@ -784,9 +784,9 @@ const PARTE1 = {
           id: "p1t3-006",
           pregunta: "¿Cuáles son las lesiones más frecuentes en una colisión frontal?",
           opciones: [
-            "Latigazo cervical y lesiones dorsales", 
-            "Traumatismos craneales, torácicos, fracturas de fémur y pelvis", 
-            "Lesiones abdominales y fracturas costales", 
+            "Latigazo cervical y lesiones dorsales",
+            "Traumatismos craneales, torácicos, fracturas de fémur y pelvis",
+            "Lesiones abdominales y fracturas costales",
             "Politraumatismos y expulsión del vehículo"
           ],
           correcta: 1,
@@ -797,9 +797,9 @@ const PARTE1 = {
           id: "p1t3-007",
           pregunta: "¿Cuáles son los usuarios más vulnerables en zonas urbanas en términos de mortalidad?",
           opciones: [
-            "Los conductores de turismos", 
-            "Los peatones, ciclistas y usuarios de VMP", 
-            "Los conductores de vehículos pesados", 
+            "Los conductores de turismos",
+            "Los peatones, ciclistas y usuarios de VMP",
+            "Los conductores de vehículos pesados",
             "Los pasajeros de transporte público"
           ],
           correcta: 1,
@@ -818,9 +818,9 @@ const PARTE1 = {
           id: "p1t3-009",
           pregunta: "¿Cuál es la causa adulta principal de lesiones craneales y abdominales en menores durante un siniestro?",
           opciones: [
-            "El exceso de velocidad del conductor", 
-            "El mal uso o ausencia de sistemas de retención infantil (SRI)", 
-            "La falta de airbags en el vehículo", 
+            "El exceso de velocidad del conductor",
+            "El mal uso o ausencia de sistemas de retención infantil (SRI)",
+            "La falta de airbags en el vehículo",
             "La conducción nocturna"
           ],
           correcta: 1,
@@ -831,9 +831,9 @@ const PARTE1 = {
           id: "p1t3-010",
           pregunta: "¿Cuál de las siguientes afirmaciones sobre la enseñanza de lesiones es correcta según el manual?",
           opciones: [
-            "El conocimiento de las lesiones debe emplearse para generar miedo en el alumnado", 
-            "El conocimiento de las lesiones debe emplearse como herramienta de prevención, no de miedo", 
-            "Las lesiones físicas son lo único relevante para el formador", 
+            "El conocimiento de las lesiones debe emplearse para generar miedo en el alumnado",
+            "El conocimiento de las lesiones debe emplearse como herramienta de prevención, no de miedo",
+            "Las lesiones físicas son lo único relevante para el formador",
             "El formador debe evitar hablar de lesiones para no provocar rechazo"
           ],
           correcta: 1,
@@ -844,9 +844,9 @@ const PARTE1 = {
           id: "p1t3-011",
           pregunta: "¿Cuál es el Trastorno psicológico más común identificado en supervivientes de siniestros viales?",
           opciones: [
-            "Trastorno obsesivo-compulsivo", 
-            "Trastorno de estrés postraumático (TEPT)", 
-            "Trastorno depresivo mayor", 
+            "Trastorno obsesivo-compulsivo",
+            "Trastorno de estrés postraumático (TEPT)",
+            "Trastorno depresivo mayor",
             "Trastorno límite de personalidad"
           ],
           correcta: 1,
@@ -865,9 +865,9 @@ const PARTE1 = {
           id: "p1t3-013",
           pregunta: "¿Por qué son más vulnerables las personas mayores en siniestros de baja velocidad?",
           opciones: [
-            "Porque tienen peor visión nocturna", 
-            "Porque su fragilidad ósea y lentitud de reacción aumentan su mortalidad incluso ante impactos leves", 
-            "Porque no usan el cinturón de seguridad", 
+            "Porque tienen peor visión nocturna",
+            "Porque su fragilidad ósea y lentitud de reacción aumentan su mortalidad incluso ante impactos leves",
+            "Porque no usan el cinturón de seguridad",
             "Porque conducen más horas al día"
           ],
           correcta: 1,
@@ -878,9 +878,9 @@ const PARTE1 = {
           id: "p1t3-014",
           pregunta: "¿Qué maniobra educativa en el aula recomienda el manual para concienciar sobre las lesiones sin generar imágenes violentas?",
           opciones: [
-            "Proyección de imágenes explícitas de siniestros", 
-            "Comparaciones visuales seguras y dinámicas reflexivas como '¿Qué pierdes en un segundo de distracción?'", 
-            "Lectura de estadísticas de mortalidad", 
+            "Proyección de imágenes explícitas de siniestros",
+            "Comparaciones visuales seguras y dinámicas reflexivas como '¿Qué pierdes en un segundo de distracción?'",
+            "Lectura de estadísticas de mortalidad",
             "Visitas a hospitales de traumatología"
           ],
           correcta: 1,
@@ -974,9 +974,9 @@ const PARTE1 = {
           id: "p1t4-001",
           pregunta: "¿Cuáles son las cinco fases del ciclo de toma de decisiones en la conducción?",
           opciones: [
-            "Ver, pensar, actuar, evaluar, corregir", 
-            "Percibir, interpretar, decidir, ejecutar, evaluar", 
-            "Observar, planificar, actuar, revisar, adaptar", 
+            "Ver, pensar, actuar, evaluar, corregir",
+            "Percibir, interpretar, decidir, ejecutar, evaluar",
+            "Observar, planificar, actuar, revisar, adaptar",
             "Atender, analizar, prever, reaccionar, aprender"
           ],
           correcta: 1,
@@ -987,9 +987,9 @@ const PARTE1 = {
           id: "p1t4-002",
           pregunta: "¿Qué caracteriza al Sistema 1 de pensamiento aplicado a la conducción?",
           opciones: [
-            "Es lento, analítico y racional", 
-            "Es rápido, automático, emocional y basado en hábitos", 
-            "Es consciente y deliberado", 
+            "Es lento, analítico y racional",
+            "Es rápido, automático, emocional y basado en hábitos",
+            "Es consciente y deliberado",
             "Es exclusivo de conductores expertos"
           ],
           correcta: 1,
@@ -1008,9 +1008,9 @@ const PARTE1 = {
           id: "p1t4-004",
           pregunta: "¿Cuál es el objetivo de la formación respecto a la toma de decisiones según el manual?",
           opciones: [
-            "Conseguir que el alumno conduzca de forma perfecta y sin errores", 
-            "Lograr que el alumno piense como un conductor responsable", 
-            "Automatizar todas las respuestas del conductor", 
+            "Conseguir que el alumno conduzca de forma perfecta y sin errores",
+            "Lograr que el alumno piense como un conductor responsable",
+            "Automatizar todas las respuestas del conductor",
             "Reducir el tiempo de reacción por debajo de 0,5 segundos"
           ],
           correcta: 1,
@@ -1021,9 +1021,9 @@ const PARTE1 = {
           id: "p1t4-005",
           pregunta: "¿Cómo puede la tecnología en el vehículo debilitar la toma de decisiones del conductor?",
           opciones: [
-            "Haciendo más complejos los sistemas de control", 
-            "Generando exceso de confianza y reduciendo la atención del conductor", 
-            "Aumentando la velocidad de circulación recomendada", 
+            "Haciendo más complejos los sistemas de control",
+            "Generando exceso de confianza y reduciendo la atención del conductor",
+            "Aumentando la velocidad de circulación recomendada",
             "Eliminando la necesidad de señalizar las maniobras"
           ],
           correcta: 1,
@@ -1034,9 +1034,9 @@ const PARTE1 = {
           id: "p1t4-006",
           pregunta: "¿Cuáles son los tres dominios que determinan el comportamiento del conductor?",
           opciones: [
-            "Cognitivo, emocional y físico", 
-            "Cognitivo, motivacional/emocional y social", 
-            "Técnico, normativo y actitudinal", 
+            "Cognitivo, emocional y físico",
+            "Cognitivo, motivacional/emocional y social",
+            "Técnico, normativo y actitudinal",
             "Perceptivo, motor y volitivo"
           ],
           correcta: 1,
@@ -1047,9 +1047,9 @@ const PARTE1 = {
           id: "p1t4-007",
           pregunta: "¿Qué factor se menciona como el que puede generar 'falsa confianza' en el conductor experimentado?",
           opciones: [
-            "El uso de ADAS exclusivamente", 
-            "La automatización excesiva de las maniobras", 
-            "La conducción nocturna", 
+            "El uso de ADAS exclusivamente",
+            "La automatización excesiva de las maniobras",
+            "La conducción nocturna",
             "La presencia de pasajeros"
           ],
           correcta: 1,
@@ -1060,9 +1060,9 @@ const PARTE1 = {
           id: "p1t4-008",
           pregunta: "¿Cómo influye la presión social en la toma de decisiones de conducción?",
           opciones: [
-            "No influye, ya que cada conductor actúa de forma independiente", 
-            "Puede llevar a imitar conductas temerarias, competir o demostrar habilidad", 
-            "Solo afecta a conductores menores de 25 años", 
+            "No influye, ya que cada conductor actúa de forma independiente",
+            "Puede llevar a imitar conductas temerarias, competir o demostrar habilidad",
+            "Solo afecta a conductores menores de 25 años",
             "Mejora siempre la toma de decisiones del conductor"
           ],
           correcta: 1,
@@ -1081,9 +1081,9 @@ const PARTE1 = {
           id: "p1t4-010",
           pregunta: "¿Qué mensaje clave del manual describe la relación entre conducción y responsabilidad?",
           opciones: [
-            "'Conducir bien es llegar antes'", 
-            "'Cada maniobra es una decisión. Y cada decisión, una oportunidad de prevenir'", 
-            "'La velocidad máxima es siempre la más segura'", 
+            "'Conducir bien es llegar antes'",
+            "'Cada maniobra es una decisión. Y cada decisión, una oportunidad de prevenir'",
+            "'La velocidad máxima es siempre la más segura'",
             "'Confía en la tecnología del vehículo'"
           ],
           correcta: 1,
@@ -1094,9 +1094,9 @@ const PARTE1 = {
           id: "p1t4-011",
           pregunta: "¿Cuáles son los factores que influyen en la toma de decisión de conducción mencionados explícitamente en el manual?",
           opciones: [
-            "Solo los factores internos del conductor", 
-            "Fatiga, estrés, alcohol/drogas, distracción, presión social y experiencia", 
-            "Exclusivamente las condiciones meteorológicas y del firme", 
+            "Solo los factores internos del conductor",
+            "Fatiga, estrés, alcohol/drogas, distracción, presión social y experiencia",
+            "Exclusivamente las condiciones meteorológicas y del firme",
             "Solo el nivel de formación y la antigüedad del permiso"
           ],
           correcta: 1,
@@ -1107,9 +1107,9 @@ const PARTE1 = {
           id: "p1t4-012",
           pregunta: "¿En qué consiste la técnica pedagógica de 'reforzamiento positivo' en el contexto de la toma de decisiones?",
           opciones: [
-            "Premiar económicamente al alumno que conduce bien", 
-            "Destacar las decisiones correctas del alumno, no solo sus errores", 
-            "No corregir los errores del alumno para no desmotivarle", 
+            "Premiar económicamente al alumno que conduce bien",
+            "Destacar las decisiones correctas del alumno, no solo sus errores",
+            "No corregir los errores del alumno para no desmotivarle",
             "Usar recompensas materiales para motivar el aprendizaje"
           ],
           correcta: 1,
@@ -1120,9 +1120,9 @@ const PARTE1 = {
           id: "p1t4-013",
           pregunta: "Según el manual, ¿de dónde nace la conducción responsable?",
           opciones: [
-            "De la potencia del motor del vehículo", 
-            "De la mente, no del motor", 
-            "De la normativa de tráfico aplicada correctamente", 
+            "De la potencia del motor del vehículo",
+            "De la mente, no del motor",
+            "De la normativa de tráfico aplicada correctamente",
             "De los sistemas ADAS del vehículo"
           ],
           correcta: 1,
@@ -1133,9 +1133,9 @@ const PARTE1 = {
           id: "p1t4-014",
           pregunta: "¿Cuál es la herramienta más efectiva que el formador puede usar para entrenar la anticipación?",
           opciones: [
-            "Realizar prácticas avanzadas de velocidad en circuito", 
-            "Plantear situaciones hipotéticas y simulaciones que forjen el pensamiento anticipatorio", 
-            "Memorizar el código de circulación en su totalidad", 
+            "Realizar prácticas avanzadas de velocidad en circuito",
+            "Plantear situaciones hipotéticas y simulaciones que forjen el pensamiento anticipatorio",
+            "Memorizar el código de circulación en su totalidad",
             "Incrementar las horas de conducción en autovía"
           ],
           correcta: 1,
@@ -1146,9 +1146,9 @@ const PARTE1 = {
           id: "p1t4-015",
           pregunta: "¿Qué técnica de autocontrol emocional al volante menciona el manual para gestionar la ira o el estrés?",
           opciones: [
-            "Aumentar la velocidad para liberar la tensión", 
-            "Respiración, distancia emocional y reencuadre positivo", 
-            "Detener el vehículo y abandonarlo", 
+            "Aumentar la velocidad para liberar la tensión",
+            "Respiración, distancia emocional y reencuadre positivo",
+            "Detener el vehículo y abandonarlo",
             "Escuchar música a alto volumen"
           ],
           correcta: 1,
@@ -1162,7 +1162,7 @@ const PARTE1 = {
     {
       id: "p1-t5",
       numero: "Tema 5",
-      titulo: "La Distracción como Factor de Riesgo",
+      titulo: "La Distracción como Factor de Risk",
       descripcion: "Tipos de distracción, procesos atencionales, uso del móvil y educación preventiva.",
       preguntas: [
         {
@@ -1217,9 +1217,9 @@ const PARTE1 = {
           id: "p1t5-007",
           pregunta: "¿Cuál de los siguientes es un tipo de distracción auditiva en la conducción?",
           opciones: [
-            "Mirar el teléfono móvil", 
-            "Comer o beber al volante", 
-            "Atender a sonidos externos o conversaciones que interfieren la concentración", 
+            "Mirar el teléfono móvil",
+            "Comer o beber al volante",
+            "Atender a sonidos externos o conversaciones que interfieren la concentración",
             "Pensar en problemas personales"
           ],
           correcta: 2,
@@ -1238,9 +1238,9 @@ const PARTE1 = {
           id: "p1t5-009",
           pregunta: "¿Cómo describe el manual el fenómeno de que el conductor 've pero no nota' algo?",
           opciones: [
-            "Como un fallo de la memoria de trabajo", 
-            "Como el 'efecto túnel' de la velocidad", 
-            "Como una limitación del campo visual útil que se estrecha con la velocidad", 
+            "Como un fallo de la memoria de trabajo",
+            "Como el 'efecto túnel' de la velocidad",
+            "Como una limitación del campo visual útil que se estrecha con la velocidad",
             "Como resultado de que la mente selecciona: no percibimos todo, solo lo que creemos importante"
           ],
           correcta: 3,
@@ -1251,9 +1251,9 @@ const PARTE1 = {
           id: "p1t5-010",
           pregunta: "¿Cuál es el objetivo final de la educación preventiva contra la distracción según el manual?",
           opciones: [
-            "Penalizar económicamente el uso del móvil al volante", 
-            "Lograr un cambio cultural: que los alumnos perciban la distracción como inaceptable", 
-            "Instalar limitadores tecnológicos en todos los vehículos", 
+            "Penalizar económicamente el uso del móvil al volante",
+            "Lograr un cambio cultural: que los alumnos perciban la distracción como inaceptable",
+            "Instalar limitadores tecnológicos en todos los vehículos",
             "Reducir exclusivamente el número de accidentes en autovía"
           ],
           correcta: 1,
@@ -1280,9 +1280,9 @@ const PARTE1 = {
           id: "p1t5-013",
           pregunta: "¿Qué estrategia educativa recomienda el manual específicamente para demostrar en el aula los límites de la atención?",
           opciones: [
-            "Mostrar estadísticas de siniestralidad en pantalla", 
-            "Simulación controlada pidiendo al alumno que lea una frase mientras observa una imagen de tráfico durante 5 segundos", 
-            "Realizar una prueba de velocidad de reacción con cronómetro", 
+            "Mostrar estadísticas de siniestralidad en pantalla",
+            "Simulación controlada pidiendo al alumno que lea una frase mientras observa una imagen de tráfico durante 5 segundos",
+            "Realizar una prueba de velocidad de reacción con cronómetro",
             "Leer el artículo legal que regula el uso del móvil"
           ],
           correcta: 1,
@@ -1335,9 +1335,9 @@ const PARTE1 = {
           id: "p1t6-003",
           pregunta: "¿Cuál es la principal prohibición de circulación aplicable a los VMP?",
           opciones: [
-            "Circular por vías de acceso rápido", 
-            "Circular por aceras y zonas peatonales", 
-            "Circular sin luces durante el día", 
+            "Circular por vías de acceso rápido",
+            "Circular por aceras y zonas peatonales",
+            "Circular sin luces durante el día",
             "Circular a más de 20 km/h en zona escolar"
           ],
           correcta: 1,
@@ -1348,9 +1348,9 @@ const PARTE1 = {
           id: "p1t6-004",
           pregunta: "¿Cuál de los siguientes es un principio de la nueva movilidad urbana sostenible?",
           opciones: [
-            "Priorizar la velocidad y la fluidez rodada", 
-            "Reducir el protagonismo del coche privado y fomentar medios más eficientes", 
-            "Construir más aparcamientos en superficie", 
+            "Priorizar la velocidad y la fluidez rodada",
+            "Reducir el protagonismo del coche privado y fomentar medios más eficientes",
+            "Construir más aparcamientos en superficie",
             "Eliminar el transporte público para reducir el gasto"
           ],
           correcta: 1,
@@ -1361,9 +1361,9 @@ const PARTE1 = {
           id: "p1t6-005",
           pregunta: "¿Cuál de los siguientes elementos es obligatorio para los usuarios de VMP?",
           opciones: [
-            "Seguro de responsabilidad civil en todos los casos", 
-            "Casco y elementos reflectantes", 
-            "Licencia de conducción de tipo AM", 
+            "Seguro de responsabilidad civil en todos los casos",
+            "Casco y elementos reflectantes",
+            "Licencia de conducción de tipo AM",
             "Chaleco de alta visibilidad en todo momento"
           ],
           correcta: 1,
@@ -1374,9 +1374,9 @@ const PARTE1 = {
           id: "p1t6-006",
           pregunta: "¿Cuál es el mensaje pedagógico del manual sobre los VMP?",
           opciones: [
-            "Los VMP son juguetes sin riesgo para adultos", 
-            "Los VMP son vehículos que deben circular con responsabilidad, no son juguetes", 
-            "Los VMP son más seguros que las bicicletas", 
+            "Los VMP son juguetes sin riesgo para adultos",
+            "Los VMP son vehículos que deben circular con responsabilidad, no son juguetes",
+            "Los VMP son más seguros que las bicicletas",
             "Los VMP solo deben usarse en carriles bici"
           ],
           correcta: 1,
@@ -1387,9 +1387,9 @@ const PARTE1 = {
           id: "p1t6-007",
           pregunta: "¿Cuáles son los cuatro ejes de la nueva movilidad urbana sostenible mencionados en el manual?",
           opciones: [
-            "Velocidad, eficiencia, comodidad y legislación", 
-            "Sostenibilidad ambiental, eficiencia, inclusión y seguridad compartida", 
-            "Tecnología, innovación, diseño y competitividad", 
+            "Velocidad, eficiencia, comodidad y legislación",
+            "Sostenibilidad ambiental, eficiencia, inclusión y seguridad compartida",
+            "Tecnología, innovación, diseño y competitividad",
             "Movilidad eléctrica, automatización, conectividad y acceso"
           ],
           correcta: 1,
@@ -1400,9 +1400,9 @@ const PARTE1 = {
           id: "p1t6-008",
           pregunta: "En la conducción sostenible, ¿qué principio de conducción eficiente menciona el manual?",
           opciones: [
-            "Acelerar rápidamente para evitar atascos", 
-            "Anticipación y suavidad en las maniobras, uso adecuado de marchas", 
-            "Mantener siempre la velocidad máxima permitida", 
+            "Acelerar rápidamente para evitar atascos",
+            "Anticipación y suavidad en las maniobras, uso adecuado de marchas",
+            "Mantener siempre la velocidad máxima permitida",
             "No usar el freno motor para ahorrar combustible"
           ],
           correcta: 1,
@@ -1421,9 +1421,9 @@ const PARTE1 = {
           id: "p1t6-010",
           pregunta: "¿Cuáles son los cuatro principios de convivencia vial en el espacio compartido?",
           opciones: [
-            "Velocidad, prioridad, señalización y cortesía", 
-            "Cooperación, empatía, previsión y comunicación", 
-            "Respeto, obediencia, seguridad y eficiencia", 
+            "Velocidad, prioridad, señalización y cortesía",
+            "Cooperación, empatía, previsión y comunicación",
+            "Respeto, obediencia, seguridad y eficiencia",
             "Igualdad, libertad, fraternidad y responsabilidad"
           ],
           correcta: 1,
@@ -1434,9 +1434,9 @@ const PARTE1 = {
           id: "p1t6-011",
           pregunta: "¿Qué problema urbano ha intensificado el auge del comercio electrónico según el manual?",
           opciones: [
-            "El aumento de la velocidad media en vías urbanas", 
-            "La saturación de calzadas y aceras por vehículos de reparto", 
-            "La reducción del transporte público", 
+            "El aumento de la velocidad media en vías urbanas",
+            "La saturación de calzadas y aceras por vehículos de reparto",
+            "La reducción del transporte público",
             "El incremento de zonas peatonales sin regulación"
           ],
           correcta: 1,
@@ -1447,9 +1447,9 @@ const PARTE1 = {
           id: "p1t6-012",
           pregunta: "¿Puede un usuario de VMP utilizar auriculares durante la circulación?",
           opciones: [
-            "Sí, si solo usa uno", 
-            "Sí, si usa un sistema de manos libres homologado", 
-            "No, está prohibido el uso de auriculares", 
+            "Sí, si solo usa uno",
+            "Sí, si usa un sistema de manos libres homologado",
+            "No, está prohibido el uso de auriculares",
             "Sí, siempre que circule por carril bici"
           ],
           correcta: 2,
@@ -1460,9 +1460,9 @@ const PARTE1 = {
           id: "p1t6-013",
           pregunta: "¿Cuál es el mensaje pedagógico clave del Tema 6 respecto al concepto de vía pública?",
           opciones: [
-            "La vía pública pertenece a los vehículos de motor con prioridad", 
-            "El futuro de la movilidad está en más velocidad y más eficiencia rodada", 
-            "La vía pública debe concebirse como espacio de tránsito, no de convivencia", 
+            "La vía pública pertenece a los vehículos de motor con prioridad",
+            "El futuro de la movilidad está en más velocidad y más eficiencia rodada",
+            "La vía pública debe concebirse como espacio de tránsito, no de convivencia",
             "La vía pública es un espacio de convivencia donde todos comparten responsabilidad"
           ],
           correcta: 3,
@@ -1499,9 +1499,9 @@ const PARTE1 = {
           id: "p1t7-003",
           pregunta: "¿Qué es la 'zona de incertidumbre' en el contexto de los usuarios vulnerables?",
           opciones: [
-            "Una zona de la vía sin señalización adecuada", 
-            "El espacio en que la conducta de los usuarios vulnerables deja de ser previsible", 
-            "Un carril exclusivo para ciclistas y motoristas", 
+            "Una zona de la vía sin señalización adecuada",
+            "El espacio en que la conducta de los usuarios vulnerables deja de ser previsible",
+            "Un carril exclusivo para ciclistas y motoristas",
             "La zona próxima a los pasos de peatones sin semáforo"
           ],
           correcta: 1,
@@ -1520,9 +1520,9 @@ const PARTE1 = {
           id: "p1t7-005",
           pregunta: "¿Cuáles son los grupos considerados usuarios vulnerables de la vía?",
           opciones: [
-            "Solo peatones y ciclistas", 
-            "Peatones, ciclistas, motoristas, usuarios de VMP, personas mayores y menores", 
-            "Conductores de turismos y furgonetas", 
+            "Solo peatones y ciclistas",
+            "Peatones, ciclistas, motoristas, usuarios de VMP, personas mayores y menores",
+            "Conductores de turismos y furgonetas",
             "Todos los usuarios mayores de 65 años"
           ],
           correcta: 1,
@@ -1533,9 +1533,9 @@ const PARTE1 = {
           id: "p1t7-006",
           pregunta: "¿Cuál es la causa principal de lesiones en menores durante un siniestro vial?",
           opciones: [
-            "La velocidad excesiva del vehículo", 
-            "El error adulto respecto al uso de sistemas de retención infantil", 
-            "La circulación nocturna", 
+            "La velocidad excesiva del vehículo",
+            "El error adulto respecto al uso de sistemas de retención infantil",
+            "La circulación nocturna",
             "Las malas condiciones del firme"
           ],
           correcta: 1,
@@ -1546,9 +1546,9 @@ const PARTE1 = {
           id: "p1t7-007",
           pregunta: "¿Cuál es la estrategia educativa clave para proteger a los usuarios vulnerables según el manual?",
           opciones: [
-            "Prohibirles el acceso a vías de alta velocidad", 
-            "Instalar barreras físicas de separación entre tipos de usuarios", 
-            "La empatía y la anticipación: enseñar a ponerse en el lugar del otro", 
+            "Prohibirles el acceso a vías de alta velocidad",
+            "Instalar barreras físicas de separación entre tipos de usuarios",
+            "La empatía y la anticipación: enseñar a ponerse en el lugar del otro",
             "Requerir a los ciclistas que usen chaleco reflectante"
           ],
           correcta: 2,
@@ -1559,9 +1559,9 @@ const PARTE1 = {
           id: "p1t7-008",
           pregunta: "¿Qué características cognitivas hacen especialmente vulnerables a los niños en la vía pública?",
           opciones: [
-            "Su tamaño físico les impide ver bien los semáforos", 
-            "No han desarrollado plenamente sus capacidades cognitivas, perceptivas y motoras", 
-            "Preferentemente van peatones sin acompañante adulto", 
+            "Su tamaño físico les impide ver bien los semáforos",
+            "No han desarrollado plenamente sus capacidades cognitivas, perceptivas y motoras",
+            "Preferentemente van peatones sin acompañante adulto",
             "Tienen mayor tiempo de reacción que los adultos"
           ],
           correcta: 1,
@@ -1572,9 +1572,9 @@ const PARTE1 = {
           id: "p1t7-009",
           pregunta: "¿Cuál es el rol del profesorado vial respecto a los usuarios vulnerables según el manual?",
           opciones: [
-            "Centrarse exclusivamente en la habilidad técnica del alumno", 
-            "Actuar como educador social que moldea comportamientos de respeto y convivencia", 
-            "Remitir el tema de vulnerables a los organismos de tráfico", 
+            "Centrarse exclusivamente en la habilidad técnica del alumno",
+            "Actuar como educador social que moldea comportamientos de respeto y convivencia",
+            "Remitir el tema de vulnerables a los organismos de tráfico",
             "Evitar datos estadísticos para no generar ansiedad"
           ],
           correcta: 1,
@@ -1593,9 +1593,9 @@ const PARTE1 = {
           id: "p1t7-011",
           pregunta: "¿Cuál de las siguientes medidas es obligatoria para los SRI (Sistemas de Retención Infantil)?",
           opciones: [
-            "Usarse hasta que el niño cumpla 12 años", 
-            "Usarse hasta que el menor alcance 1,35 m de altura", 
-            "Usarse hasta que el menor pese más de 36 kg", 
+            "Usarse hasta que el niño cumpla 12 años",
+            "Usarse hasta que el menor alcance 1,35 m de altura",
+            "Usarse hasta que el menor pese más de 36 kg",
             "Usarse solo en trayectos de más de 50 km"
           ],
           correcta: 1,
@@ -1606,9 +1606,9 @@ const PARTE1 = {
           id: "p1t7-002b",
           pregunta: "¿Cuál es el principio educativo que resume la protección de los usuarios vulnerables en el manual?",
           opciones: [
-            "'Quien más puede, más debe cuidar'", 
-            "'La seguridad vial es solo responsabilidad del Estado'", 
-            "'La velocidad garantiza la seguridad'", 
+            "'Quien más puede, más debe cuidar'",
+            "'La seguridad vial es solo responsabilidad del Estado'",
+            "'La velocidad garantiza la seguridad'",
             "'La tecnología protege a todos los usuarios'"
           ],
           correcta: 0,
@@ -1629,9 +1629,9 @@ const PARTE1 = {
           id: "p1t8-001",
           pregunta: "¿Cuáles son los siete factores de riesgo prioritarios identificados por la DGT y la OMS?",
           opciones: [
-            "Velocidad, alcohol, drogas, somnolencia, fatiga, estrés y distracción", 
-            "Velocidad, lluvia, noche, cansancio, alcohol, drogas y distracciones", 
-            "Alcohol, drogas, exceso de velocidad, falta de mantenimiento, neumáticos, señalización y fatiga", 
+            "Velocidad, alcohol, drogas, somnolencia, fatiga, estrés y distracción",
+            "Velocidad, lluvia, noche, cansancio, alcohol, drogas y distracciones",
+            "Alcohol, drogas, exceso de velocidad, falta de mantenimiento, neumáticos, señalización y fatiga",
             "Distracción, somnolencia, agresividad, exceso de carga, velocidad, alcohol y curvas"
           ],
           correcta: 0,
@@ -1658,9 +1658,9 @@ const PARTE1 = {
           id: "p1t8-004",
           pregunta: "¿Cuál de los siguientes efectos produce el cannabis en la conducción?",
           opciones: [
-            "Aumento de la velocidad de reacción y mayor concentración", 
-            "Distorsiones sensoriales, aumento del tiempo de reacción y efecto residual prolongado", 
-            "Reducción de la impulsividad y mayor atención", 
+            "Aumento de la velocidad de reacción y mayor concentración",
+            "Distorsiones sensoriales, aumento del tiempo de reacción y efecto residual prolongado",
+            "Reducción de la impulsividad y mayor atención",
             "Mejora del equilibrio y coordinación motora"
           ],
           correcta: 1,
@@ -1671,9 +1671,9 @@ const PARTE1 = {
           id: "p1t8-005",
           pregunta: "¿Cuál es el efecto inicial de la cocaína en la conducción?",
           opciones: [
-            "Somnolencia y reducción de reflejos", 
-            "Euforia, exceso de confianza, agresividad y conductas temerarias", 
-            "Reducción de la velocidad de reacción", 
+            "Somnolencia y reducción de reflejos",
+            "Euforia, exceso de confianza, agresividad y conductas temerarias",
+            "Reducción de la velocidad de reacción",
             "Visión borrosa y pérdida de control lateral"
           ],
           correcta: 1,
@@ -1684,9 +1684,9 @@ const PARTE1 = {
           id: "p1t8-006",
           pregunta: "¿Qué síntoma previo a la somnolencia severa al volante debe reconocer el conductor?",
           opciones: [
-            "Visión borrosa y náuseas", 
-            "Parpadeo constante, dificultad para mantener la vista enfocada, invasión de carril", 
-            "Dolor de cabeza intenso", 
+            "Visión borrosa y náuseas",
+            "Parpadeo constante, dificultad para mantener la vista enfocada, invasión de carril",
+            "Dolor de cabeza intenso",
             "Temblor en las manos"
           ],
           correcta: 1,
@@ -1705,9 +1705,9 @@ const PARTE1 = {
           id: "p1t8-008",
           pregunta: "¿Cómo se identifica visualmente en los medicamentos el riesgo de afectar a la conducción?",
           opciones: [
-            "Con una etiqueta roja en la caja", 
-            "Con el pictograma del triángulo rojo con un coche", 
-            "Con una línea amarilla en el prospecto", 
+            "Con una etiqueta roja en la caja",
+            "Con el pictograma del triángulo rojo con un coche",
+            "Con una línea amarilla en el prospecto",
             "Con el símbolo universal de la calavera"
           ],
           correcta: 1,
@@ -1718,9 +1718,9 @@ const PARTE1 = {
           id: "p1t8-009",
           pregunta: "¿Cuál es el efecto del estrés en la conducción según el manual?",
           opciones: [
-            "Mejora la atención y concentración del conductor", 
-            "Genera impulsividad, maniobras bruscas y menor tolerancia al error ajeno", 
-            "Reduce la velocidad de circulación del conductor estresado", 
+            "Mejora la atención y concentración del conductor",
+            "Genera impulsividad, maniobras bruscas y menor tolerancia al error ajeno",
+            "Reduce la velocidad de circulación del conductor estresado",
             "No tiene efectos relevantes en la conducción"
           ],
           correcta: 1,
@@ -1731,9 +1731,9 @@ const PARTE1 = {
           id: "p1t8-010",
           pregunta: "¿Qué combinación de sustancias describen como especialmente peligrosa en el manual?",
           opciones: [
-            "Cafeína + antihistamínicos", 
-            "Alcohol + cannabis (que genera profunda alteración del tiempo de reacción)", 
-            "Nicotina + ansiolíticos", 
+            "Cafeína + antihistamínicos",
+            "Alcohol + cannabis (que genera profunda alteración del tiempo de reacción)",
+            "Nicotina + ansiolíticos",
             "Alcohol + vitaminas"
           ],
           correcta: 1,
@@ -1744,9 +1744,9 @@ const PARTE1 = {
           id: "p1t8-011",
           pregunta: "¿Cuáles son los factores meteorológicos del entorno vial que mencionan explícitamente los factores ambientales?",
           opciones: [
-            "El sol y el calor únicamente", 
-            "La lluvia, la niebla, el hielo y el viento", 
-            "Solo la niebla y la lluvia", 
+            "El sol y el calor únicamente",
+            "La lluvia, la niebla, el hielo y el viento",
+            "Solo la niebla y la lluvia",
             "El granizo y la nieve"
           ],
           correcta: 1,
@@ -1757,9 +1757,9 @@ const PARTE1 = {
           id: "p1t8-012",
           pregunta: "¿En qué contexto son especialmente vulnerables los conductores profesionales según el Tema 8?",
           opciones: [
-            "En trayectos urbanos por la alta densidad de tráfico", 
-            "Por la fatiga, la presión del tiempo y la exposición prolongada", 
-            "Por conducir vehículos de gran tonelaje", 
+            "En trayectos urbanos por la alta densidad de tráfico",
+            "Por la fatiga, la presión del tiempo y la exposición prolongada",
+            "Por conducir vehículos de gran tonelaje",
             "Por tener permisos de conducción más complejos"
           ],
           correcta: 1,
@@ -1770,9 +1770,9 @@ const PARTE1 = {
           id: "p1t8-013",
           pregunta: "¿Cuál es la combinación de factores de riesgo más frecuente en los siniestros según el manual?",
           opciones: [
-            "Velocidad + lluvia", 
-            "Velocidad + distracción / Fatiga + estrés / Alcohol + exceso de confianza", 
-            "Somnolencia + falta de señalización", 
+            "Velocidad + lluvia",
+            "Velocidad + distracción / Fatiga + estrés / Alcohol + exceso de confianza",
+            "Somnolencia + falta de señalización",
             "Cannabis + exceso de velocidad únicamente"
           ],
           correcta: 1,
@@ -1783,9 +1783,9 @@ const PARTE1 = {
           id: "p1t8-014",
           pregunta: "¿Qué pedagogía recomienda el manual para abordar el alcohol y las drogas en el aula?",
           opciones: [
-            "Lectura del código penal aplicable a la conducción bajo efectos", 
-            "Perspectiva científica, emocional y social con recursos como gafas de simulación y debate ético", 
-            "Solo estadísticas de siniestralidad por alcohol", 
+            "Lectura del código penal aplicable a la conducción bajo efectos",
+            "Perspectiva científica, emocional y social con recursos como gafas de simulación y debate ético",
+            "Solo estadísticas de siniestralidad por alcohol",
             "Referencia exclusiva a las multas y sanciones penales"
           ],
           correcta: 1,
@@ -1796,9 +1796,9 @@ const PARTE1 = {
           id: "p1t8-015",
           pregunta: "¿Qué tipo de enfermedades pueden suponer un riesgo específico de pérdida de consciencia al volante?",
           opciones: [
-            "La hipertensión y el colesterol", 
-            "La diabetes (riesgo de hipoglucemia) y la epilepsia (crisis imprevisibles)", 
-            "El asma y las alergias", 
+            "La hipertensión y el colesterol",
+            "La diabetes (riesgo de hipoglucemia) y la epilepsia (crisis imprevisibles)",
+            "El asma y las alergias",
             "La artritis y los problemas musculares"
           ],
           correcta: 1,
@@ -1819,9 +1819,9 @@ const PARTE1 = {
           id: "p1t9-001",
           pregunta: "¿Cuál es la misión de la seguridad activa en un vehículo?",
           opciones: [
-            "Proteger a los ocupantes durante el impacto", 
-            "Prevenir el siniestro aumentando estabilidad, adherencia, visibilidad y control", 
-            "Absorber la energía del impacto", 
+            "Proteger a los ocupantes durante el impacto",
+            "Prevenir el siniestro aumentando estabilidad, adherencia, visibilidad y control",
+            "Absorber la energía del impacto",
             "Activar los airbags en caso de colisión"
           ],
           correcta: 1,
@@ -1848,9 +1848,9 @@ const PARTE1 = {
           id: "p1t9-004",
           pregunta: "¿Cuál es el principal elemento de seguridad pasiva y cuánto reduce el riesgo de muerte?",
           opciones: [
-            "El airbag, reduce el riesgo un 60%", 
-            "El cinturón de seguridad, reduce el riesgo a la mitad", 
-            "La carrocería estructurada, reduce el riesgo un 70%", 
+            "El airbag, reduce el riesgo un 60%",
+            "El cinturón de seguridad, reduce el riesgo a la mitad",
+            "La carrocería estructurada, reduce el riesgo un 70%",
             "El SRI, reduce el riesgo un 80%"
           ],
           correcta: 1,
@@ -1861,9 +1861,9 @@ const PARTE1 = {
           id: "p1t9-005",
           pregunta: "¿Cuándo se activan los airbags en un vehículo?",
           opciones: [
-            "Cuando se supera una velocidad determinada", 
-            "En milisegundos al detectar una desaceleración brusca (colisión)", 
-            "Solo tras activación manual del conductor", 
+            "Cuando se supera una velocidad determinada",
+            "En milisegundos al detectar una desaceleración brusca (colisión)",
+            "Solo tras activación manual del conductor",
             "Cuando el cinturón no está abrochado"
           ],
           correcta: 1,
@@ -1882,9 +1882,9 @@ const PARTE1 = {
           id: "p1t9-007",
           pregunta: "¿Cuál es el concepto de 'seguridad preventiva' según el Manual de Profesores de Formación Vial de la DGT?",
           opciones: [
-            "Solo los airbags y cinturones de seguridad pasiva", 
-            "Cualquier sistema que ayude al conductor a mantener su atención o facilite su respuesta ante situaciones críticas", 
-            "El conjunto de medidas legales que regulan la conducción", 
+            "Solo los airbags y cinturones de seguridad pasiva",
+            "Cualquier sistema que ayude al conductor a mantener su atención o facilite su respuesta ante situaciones críticas",
+            "El conjunto de medidas legales que regulan la conducción",
             "Los elementos de la vía diseñados para minimizar impactos"
           ],
           correcta: 1,
@@ -1895,9 +1895,9 @@ const PARTE1 = {
           id: "p1t9-008",
           pregunta: "¿Cuáles son los tres pilares de la seguridad vial moderna mencionados en el Tema 9?",
           opciones: [
-            "Legislación, sanción y educación", 
-            "Factor humano, vehículo y entorno vial", 
-            "Prevención, protección y asistencia", 
+            "Legislación, sanción y educación",
+            "Factor humano, vehículo y entorno vial",
+            "Prevención, protección y asistencia",
             "Conductor, vía y señalización"
           ],
           correcta: 1,
@@ -1908,13 +1908,12 @@ const PARTE1 = {
           id: "p1t9-009",
           pregunta: "¿Cómo se debe ajustar el reposacabezas para ser efectivo?",
           opciones: [
-            "A nivel del cuello, para máxima comodidad", 
-            "A la altura de la cabeza, no del cuello", 
-            "Inclinado hacia delante", 
+            "A nivel del cuello, para máxima comodidad",
+            "A la altura de la cabeza, no del cuello",
+            "Inclinado hacia delante",
             "A la altura de los hombros"
           ],
           correcta: 1,
-          explanacion: "El reposacabezas debe ajustarse a la altura y distancia de la cabeza, no del cuello, para ser efectivo como elemento de prevención del latigazo cervical.",
           explicacion: "El reposacabezas debe ajustarse a la altura y distancia de la cabeza, no del cuello, para ser efectivo como elemento de prevención del latigazo cervical.",
           referencia: "Tema 9 – Seguridad pasiva: reposacabezas"
         },
@@ -1922,9 +1921,9 @@ const PARTE1 = {
           id: "p1t9-010",
           pregunta: "¿Qué enseña el formador sobre los ADAS según el manual?",
           opciones: [
-            "Que los ADAS hacen innecesaria la atención del conductor", 
-            "Que los ADAS son ayudas, no sustitutos de la atención y el juicio humano", 
-            "Que los ADAS solo funcionan en autovías", 
+            "Que los ADAS hacen innecesaria la atención del conductor",
+            "Que los ADAS son ayudas, no sustitutos de la atención y el juicio humano",
+            "Que los ADAS solo funcionan en autovías",
             "Que los ADAS eliminan completamente el riesgo de siniestro"
           ],
           correcta: 1,
@@ -1935,9 +1934,9 @@ const PARTE1 = {
           id: "p1t9-011",
           pregunta: "¿Cuál es la enseñanza correcta sobre la técnica de frenado cuando el vehículo tiene ABS?",
           opciones: [
-            "Pisar el freno de forma intermitente (bombeando)", 
-            "Pisar y mantener la presión máxima en el freno (pisar y mantener)", 
-            "Accionar el freno de mano junto con el freno de pie", 
+            "Pisar el freno de forma intermitente (bombeando)",
+            "Pisar y mantener la presión máxima en el freno (pisar y mantener)",
+            "Accionar el freno de mano junto con el freno de pie",
             "Reducir primero la marcha antes de frenar"
           ],
           correcta: 1,
@@ -1948,9 +1947,9 @@ const PARTE1 = {
           id: "p1t9-012",
           pregunta: "¿Cuál es la función del BAS (Asistencia a la frenada)?",
           opciones: [
-            "Distribuir la fuerza de frenado entre ejes", 
-            "Aplicar la presión máxima de frenado automáticamente en emergencias", 
-            "Evitar el bloqueo de ruedas", 
+            "Distribuir la fuerza de frenado entre ejes",
+            "Aplicar la presión máxima de frenado automáticamente en emergencias",
+            "Evitar el bloqueo de ruedas",
             "Controlar la tracción de las ruedas motrices"
           ],
           correcta: 1,
@@ -1979,9 +1978,9 @@ const PARTE1 = {
           id: "p1t10-001",
           pregunta: "¿Cuál es la diferencia fundamental entre conducción defensiva y conducción preventiva?",
           opciones: [
-            "La defensiva es para autopistas y la preventiva para ciudad", 
-            "La defensiva reacciona ante el error ajeno; la preventiva se anticipa al error antes de que ocurra", 
-            "La preventiva es más agresiva que la defensiva", 
+            "La defensiva es para autopistas y la preventiva para ciudad",
+            "La defensiva reacciona ante el error ajeno; la preventiva se anticipa al error antes de que ocurra",
+            "La preventiva es más agresiva que la defensiva",
             "No existe diferencia, son términos sinónimos"
           ],
           correcta: 1,
@@ -1992,9 +1991,9 @@ const PARTE1 = {
           id: "p1t10-002",
           pregunta: "¿Cuál es el eje central de la conducción preventiva que describe el manual?",
           opciones: [
-            "La velocidad máxima permitida", 
-            "La técnica mecánica de manejo del vehículo", 
-            "La anticipación y la gestión consciente del riesgo", 
+            "La velocidad máxima permitida",
+            "La técnica mecánica de manejo del vehículo",
+            "La anticipación y la gestión consciente del riesgo",
             "El conocimiento exhaustivo del código de circulación"
           ],
           correcta: 2,
@@ -2005,9 +2004,9 @@ const PARTE1 = {
           id: "p1t10-003",
           pregunta: "¿Cuáles son los cuatro valores que demuestra el conductor preventivo según el manual?",
           opciones: [
-            "Velocidad, precisión, confianza y eficiencia", 
-            "Respeto, empatía, responsabilidad y paciencia", 
-            "Destreza, prudencia, conocimiento y normativa", 
+            "Velocidad, precisión, confianza y eficiencia",
+            "Respeto, empatía, responsabilidad y paciencia",
+            "Destreza, prudencia, conocimiento y normativa",
             "Agilidad, anticipación, control y reflejos"
           ],
           correcta: 1,
@@ -2018,9 +2017,9 @@ const PARTE1 = {
           id: "p1t10-004",
           pregunta: "¿Qué metodología pedagógica clave recomienda el formador para entrenar el pensamiento anticipatorio?",
           opciones: [
-            "Memorización de señales y normativa", 
-            "Plantear situaciones hipotéticas ('¿Qué pasaría si…?') y pedir al alumno que verbalice sus decisiones", 
-            "Incrementar las horas de prácticas en circuito cerrado", 
+            "Memorización de señales y normativa",
+            "Plantear situaciones hipotéticas ('¿Qué pasaría si…?') y pedir al alumno que verbalice sus decisiones",
+            "Incrementar las horas de prácticas en circuito cerrado",
             "Usar exclusivamente simuladores de conducción virtuales"
           ],
           correcta: 1,
@@ -2031,9 +2030,9 @@ const PARTE1 = {
           id: "p1t10-005",
           pregunta: "¿Qué describe el manual como 'la síntesis de todo lo que la educación vial busca lograr'?",
           opciones: [
-            "El conocimiento completo del código de circulación", 
-            "La conducción preventiva: anticiparse, respetar, proteger", 
-            "La habilidad técnica de manejo del vehículo", 
+            "El conocimiento completo del código de circulación",
+            "La conducción preventiva: anticiparse, respetar, proteger",
+            "La habilidad técnica de manejo del vehículo",
             "El dominio de los sistemas de seguridad activa"
           ],
           correcta: 1,
@@ -2044,9 +2043,9 @@ const PARTE1 = {
           id: "p1t10-006",
           pregunta: "¿Cuál es el mensaje clave sobre el conductor verdaderamente seguro según el manual?",
           opciones: [
-            "'El conductor seguro es el que reacciona más rápido'", 
-            "'El verdadero conductor seguro no es quien reacciona rápido, sino quien nunca necesita hacerlo'", 
-            "'El conductor seguro es el que más km ha recorrido'", 
+            "'El conductor seguro es el que reacciona más rápido'",
+            "'El verdadero conductor seguro no es quien reacciona rápido, sino quien nunca necesita hacerlo'",
+            "'El conductor seguro es el que más km ha recorrido'",
             "'El conductor seguro es el que usa todos los ADAS disponibles'"
           ],
           correcta: 1,
@@ -2067,9 +2066,9 @@ const PARTE1 = {
           id: "p1t11-001",
           pregunta: "¿Cuáles son los tres pasos que componen la regla P.A.S.?",
           opciones: [
-            "Parar, Avisar, Señalizar", 
-            "Proteger, Avisar, Socorrer", 
-            "Precaución, Asistencia, Seguridad", 
+            "Parar, Avisar, Señalizar",
+            "Proteger, Avisar, Socorrer",
+            "Precaución, Asistencia, Seguridad",
             "Proteger, Alertar, Socorrer"
           ],
           correcta: 1,
@@ -2088,9 +2087,9 @@ const PARTE1 = {
           id: "p1t11-003",
           pregunta: "¿En qué situación sería correcto mover a una víctima de un siniestro antes de que lleguen los servicios de emergencia?",
           opciones: [
-            "Siempre que la víctima esté inconsciente", 
-            "Nunca, bajo ninguna circunstancia", 
-            "Solo en caso de peligro inminente como incendio, explosión, derrumbe o caída al agua", 
+            "Siempre que la víctima esté inconsciente",
+            "Nunca, bajo ninguna circunstancia",
+            "Solo en caso de peligro inminente como incendio, explosión, derrumbe o caída al agua",
             "Cuando la víctima lo solicite expresamente"
           ],
           correcta: 2,
@@ -2101,9 +2100,9 @@ const PARTE1 = {
           id: "p1t11-004",
           pregunta: "¿Qué delito comete quien se niega a auxiliar a una víctima de siniestro pudiendo hacerlo?",
           opciones: [
-            "Infracción administrativa grave", 
-            "Delito penal de omisión del deber de socorro (art. 195 y 382 bis del Código Penal)", 
-            "Infracción leve de tráfico", 
+            "Infracción administrativa grave",
+            "Delito penal de omisión del deber de socorro (art. 195 y 382 bis del Código Penal)",
+            "Infracción leve de tráfico",
             "Delito civil de negligencia"
           ],
           correcta: 1,
@@ -2114,9 +2113,9 @@ const PARTE1 = {
           id: "p1t11-005",
           pregunta: "¿Cuál es la posición de seguridad correcta para una persona inconsciente que respira?",
           opciones: [
-            "Boca arriba con las piernas elevadas", 
-            "Posición lateral de seguridad (PLS)", 
-            "Sentada con la cabeza inclinada hacia adelante", 
+            "Boca arriba con las piernas elevadas",
+            "Posición lateral de seguridad (PLS)",
+            "Sentada con la cabeza inclinada hacia adelante",
             "Boca abajo con la cabeza girada"
           ],
           correcta: 1,
@@ -2127,9 +2126,9 @@ const PARTE1 = {
           id: "p1t11-006",
           pregunta: "Respecto al casco de un motorista implicado en un siniestro, ¿cuándo debe retirarse?",
           opciones: [
-            "Siempre, para comprobar lesiones en la cabeza", 
-            "Nunca bajo ninguna circunstancia", 
-            "Solo si existe riesgo vital inminente y sea imprescindible para garantizar la respiración", 
+            "Siempre, para comprobar lesiones en la cabeza",
+            "Nunca bajo ninguna circunstancia",
+            "Solo si existe riesgo vital inminente y sea imprescindible para garantizar la respiración",
             "Si el motorista lo solicita"
           ],
           correcta: 2,
@@ -2140,9 +2139,9 @@ const PARTE1 = {
           id: "p1t11-007",
           pregunta: "¿Cuál es la primera acción al llegar a la escena de un siniestro según la regla P.A.S.?",
           opciones: [
-            "Llamar inmediatamente al 112", 
-            "Comprobar el estado de las víctimas", 
-            "Proteger el lugar y evitar nuevos peligros señalizando con V-16 y luces de emergencia", 
+            "Llamar inmediatamente al 112",
+            "Comprobar el estado de las víctimas",
+            "Proteger el lugar y evitar nuevos peligros señalizando con V-16 y luces de emergencia",
             "Iniciar las maniobras de RCP en los heridos"
           ],
           correcta: 2,
@@ -2153,9 +2152,9 @@ const PARTE1 = {
           id: "p1t11-008",
           pregunta: "¿Qué información básica debe comunicarse al llamar al 112 tras un siniestro?",
           opciones: [
-            "Solo el número de vehículos y la matrícula", 
-            "Lugar exacto, número de vehículos y personas, tipo de siniestro, estado de víctimas y riesgos añadidos", 
-            "Únicamente el nombre del conductor y el seguro del vehículo", 
+            "Solo el número de vehículos y la matrícula",
+            "Lugar exacto, número de vehículos y personas, tipo de siniestro, estado de víctimas y riesgos añadidos",
+            "Únicamente el nombre del conductor y el seguro del vehículo",
             "La causa probable del siniestro y las infracciones cometidas"
           ],
           correcta: 1,
@@ -2166,9 +2165,9 @@ const PARTE1 = {
           id: "p1t11-009",
           pregunta: "¿Está permitido grabar imágenes de víctimas en un siniestro?",
           opciones: [
-            "Sí, siempre para documentarlo", 
-            "No, en ningún caso", 
-            "No se deben grabar imágenes que identifiquen a personas heridas o fallecidas ya que vulnera su intimidad y puede infringir el RGPD", 
+            "Sí, siempre para documentarlo",
+            "No, en ningún caso",
+            "No se deben grabar imágenes que identifiquen a personas heridas o fallecidas ya que vulnera su intimidad y puede infringir el RGPD",
             "Sí, solo si las víctimas están inconscientes"
           ],
           correcta: 2,
@@ -2197,9 +2196,9 @@ const PARTE1 = {
           id: "p1t12-001",
           pregunta: "¿Cuál es el texto normativo que regula la circulación en España?",
           opciones: [
-            "Ley 17/2005", 
-            "Real Decreto Legislativo 6/2015 (Ley de Tráfico y Seguridad Vial)", 
-            "Real Decreto 818/2009", 
+            "Ley 17/2005",
+            "Real Decreto Legislativo 6/2015 (Ley de Tráfico y Seguridad Vial)",
+            "Real Decreto 818/2009",
             "Ley Orgánica 3/2007"
           ],
           correcta: 1,
@@ -2218,9 +2217,9 @@ const PARTE1 = {
           id: "p1t12-003",
           pregunta: "¿Cuáles son los cinco principios éticos y formativos que rigen la circulación vial según el manual?",
           opciones: [
-            "Velocidad, eficiencia, respeto, técnica y normativa", 
-            "Seguridad, responsabilidad, solidaridad, igualdad y respeto", 
-            "Prevención, protección, sanción, educación y conciencia", 
+            "Velocidad, eficiencia, respeto, técnica y normativa",
+            "Seguridad, responsabilidad, solidaridad, igualdad y respeto",
+            "Prevención, protección, sanción, educación y conciencia",
             "Empatía, prudencia, anticipación, señalización y mantenimiento"
           ],
           correcta: 1,
@@ -2239,9 +2238,9 @@ const PARTE1 = {
           id: "p1t12-005",
           pregunta: "¿Qué consecuencia legal conlleva la conducción temeraria o la fuga en caso de siniestro?",
           opciones: [
-            "Solo multa económica", 
-            "Responsabilidad penal: prisión, antecedentes y retirada judicial del permiso", 
-            "Responsabilidad civil: indemnización por daños", 
+            "Solo multa económica",
+            "Responsabilidad penal: prisión, antecedentes y retirada judicial del permiso",
+            "Responsabilidad civil: indemnización por daños",
             "Responsabilidad administrativa: sanción y puntos"
           ],
           correcta: 1,
@@ -2252,9 +2251,9 @@ const PARTE1 = {
           id: "p1t12-006",
           pregunta: "¿Cuál es la razón pedagógica por la que el manual recomienda enseñar la norma vinculada a su razón de ser?",
           opciones: [
-            "Para que los alumnos memoricen mejor los artículos del reglamento", 
-            "Para que entiendan cada norma como un instrumento de prevención, no de castigo", 
-            "Para facilitar la aprobación del examen teórico", 
+            "Para que los alumnos memoricen mejor los artículos del reglamento",
+            "Para que entiendan cada norma como un instrumento de prevención, no de castigo",
+            "Para facilitar la aprobación del examen teórico",
             "Para que el alumno conozca las sanciones exactas por infracción"
           ],
           correcta: 1,
@@ -2265,9 +2264,9 @@ const PARTE1 = {
           id: "p1t12-007",
           pregunta: "¿Qué principio técnico de seguridad vial implica esperar que los demás actúen correctamente pero manteniendo la capacidad de reacción?",
           opciones: [
-            "Conducción defensiva", 
-            "Responsabilidad compartida", 
-            "Confianza en la normalidad", 
+            "Conducción defensiva",
+            "Responsabilidad compartida",
+            "Confianza en la normalidad",
             "Señalización preventiva"
           ],
           correcta: 2,
@@ -2278,9 +2277,9 @@ const PARTE1 = {
           id: "p1t12-008",
           pregunta: "¿Cuál es la conclusión filosófica del Tema 12 sobre la relación entre la norma y la conciencia?",
           opciones: [
-            "La norma sin sanción no tiene efecto", 
-            "Solo cuando la ley se convierte en conciencia, la seguridad vial deja de ser obligación y pasa a ser cultura", 
-            "La normativa es suficiente sin educación", 
+            "La norma sin sanción no tiene efecto",
+            "Solo cuando la ley se convierte en conciencia, la seguridad vial deja de ser obligación y pasa a ser cultura",
+            "La normativa es suficiente sin educación",
             "La conciencia individual no puede cambiar la cultura vial"
           ],
           correcta: 1,
@@ -2291,9 +2290,9 @@ const PARTE1 = {
           id: "p1t12-009",
           pregunta: "¿Qué papel tiene el profesorado como modelo de cumplimiento normativo?",
           opciones: [
-            "Su ejemplo personal tiene menos impacto que la lección teórica", 
-            "Su ejemplo tiene más impacto que cualquier lección teórica", 
-            "Solo debe ser modelo en el circuito de prácticas", 
+            "Su ejemplo personal tiene menos impacto que la lección teórica",
+            "Su ejemplo tiene más impacto que cualquier lección teórica",
+            "Solo debe ser modelo en el circuito de prácticas",
             "Su papel se limita a transmitir la normativa sin necesidad de ejemplificación"
           ],
           correcta: 1,
@@ -2338,9 +2337,9 @@ const PARTE1 = {
           id: "p1t13-004",
           pregunta: "¿Cuáles son los siete factores de riesgo específicos en la conducción de motocicletas?",
           opciones: [
-            "Velocidad, alcohol, drogas, lluvia, curvas, fatiga y ciudad", 
-            "Vulnerabilidad física, inestabilidad, menor visibilidad, efectos del entorno, riesgo en curvas, en intersecciones y distracción/exceso de confianza", 
-            "Casco, guantes, botas, chaqueta, visibilidad, mantenimiento y normativa", 
+            "Velocidad, alcohol, drogas, lluvia, curvas, fatiga y ciudad",
+            "Vulnerabilidad física, inestabilidad, menor visibilidad, efectos del entorno, riesgo en curvas, en intersecciones y distracción/exceso de confianza",
+            "Casco, guantes, botas, chaqueta, visibilidad, mantenimiento y normativa",
             "Adelantamientos, velocidad, alcohol, somnolencia, lluvia, baches y conducción nocturna"
           ],
           correcta: 1,
@@ -2375,9 +2374,9 @@ const PARTE1 = {
           id: "p1t13-008",
           pregunta: "¿Por qué el formador debe enseñar a todos los conductores (no solo motoristas) sobre las motos?",
           opciones: [
-            "Porque todos los conductores obtendrán el permiso A en algún momento", 
-            "Porque enseñar a ver, respetar y proteger a los motoristas reduce drásticamente los siniestros", 
-            "Porque la ley exige esta formación transversal", 
+            "Porque todos los conductores obtendrán el permiso A en algún momento",
+            "Porque enseñar a ver, respetar y proteger a los motoristas reduce drásticamente los siniestros",
+            "Porque la ley exige esta formación transversal",
             "Porque los conductores de coche son siempre responsables de los accidentes con motos"
           ],
           correcta: 1,
@@ -2388,9 +2387,9 @@ const PARTE1 = {
           id: "p1t13-009",
           pregunta: "¿Está permitido el uso de intercomunicadores integrados en el casco homologado para motoristas?",
           opciones: [
-            "No, está prohibido cualquier dispositivo electrónico en la moto", 
-            "Sí, se autorizan los intercomunicadores integrados en el casco homologado para comunicación entre conductor y pasajero", 
-            "Solo se permite si el intercomunicador es inalámbrico", 
+            "No, está prohibido cualquier dispositivo electrónico en la moto",
+            "Sí, se autorizan los intercomunicadores integrados en el casco homologado para comunicación entre conductor y pasajero",
+            "Solo se permite si el intercomunicador es inalámbrico",
             "Solo en autopistas y autovías"
           ],
           correcta: 1,
@@ -2401,9 +2400,9 @@ const PARTE1 = {
           id: "p1t13-010",
           pregunta: "¿Cuál es la estrategia de visibilidad activa que debe adoptar el motorista?",
           opciones: [
-            "Circular en ángulos muertos de los vehículos para sorprenderlos", 
-            "No circular en ángulos muertos y posicionarse de forma visible; hacerse ver activamente", 
-            "Usar solo luces de cruce en ciudad", 
+            "Circular en ángulos muertos de los vehículos para sorprenderlos",
+            "No circular en ángulos muertos y posicionarse de forma visible; hacerse ver activamente",
+            "Usar solo luces de cruce en ciudad",
             "Circular siempre por el carril izquierdo"
           ],
           correcta: 1,
@@ -2414,9 +2413,9 @@ const PARTE1 = {
           id: "p1t13-011",
           pregunta: "¿Cuál es el mensaje final del Tema 13 respecto a la actitud del motorista?",
           opciones: [
-            "'La mejor protección del motorista es su velocidad'", 
-            "'La mejor protección del motorista es su actitud'", 
-            "'La mejor protección del motorista es el casco'", 
+            "'La mejor protección del motorista es su velocidad'",
+            "'La mejor protección del motorista es su actitud'",
+            "'La mejor protección del motorista es el casco'",
             "'La mejor protección del motorista es el seguro'"
           ],
           correcta: 1,

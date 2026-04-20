@@ -20,9 +20,9 @@ const PARTE2 = {
           id: "p2t1-001",
           pregunta: "¿Cuáles son las tres competencias principales del formador vial moderno según el manual?",
           opciones: [
-            "Normativa, sanción y control", 
-            "Técnica, comunicativa y emocional/social", 
-            "Pedagógica, psicológica y jurídica", 
+            "Normativa, sanción y control",
+            "Técnica, comunicativa y emocional/social",
+            "Pedagógica, psicológica y jurídica",
             "Teórica, práctica y evaluadora"
           ],
           correcta: 1,
@@ -33,9 +33,9 @@ const PARTE2 = {
           id: "p2t1-002",
           pregunta: "¿Cuál es el principio pedagógico fundamental sobre el aprendizaje adulto?",
           opciones: [
-            "Los adultos aprenden mejor mediante memorización", 
-            "Los adultos aprenden mejor cuando entienden la utilidad inmediata de lo que aprenden y conectan con su experiencia", 
-            "Los adultos necesitan más horas de clase teórica que los jóvenes", 
+            "Los adultos aprenden mejor mediante memorización",
+            "Los adultos aprenden mejor cuando entienden la utilidad inmediata de lo que aprenden y conectan con su experiencia",
+            "Los adultos necesitan más horas de clase teórica que los jóvenes",
             "Los adultos solo aprenden si sienten presión por la sanción"
           ],
           correcta: 1,
@@ -46,9 +46,9 @@ const PARTE2 = {
           id: "p2t1-003",
           pregunta: "¿Cuál es la definición del rol del formador PxP según el manual?",
           opciones: [
-            "Transmisor de normas de tráfico", 
-            "Facilitador del aprendizaje y activador de conciencia vial", 
-            "Evaluador de capacidades técnicas de conducción", 
+            "Transmisor de normas de tráfico",
+            "Facilitador del aprendizaje y activador de conciencia vial",
+            "Evaluador de capacidades técnicas de conducción",
             "Inspector del cumplimiento de la normativa"
           ],
           correcta: 1,
@@ -59,9 +59,9 @@ const PARTE2 = {
           id: "p2t1-004",
           pregunta: "¿Qué estilo de aprendizaje caracteriza al alumno 'Integrador'?",
           opciones: [
-            "Necesita datos, lógica y argumentos", 
-            "Prefiere estructura y claridad de normas", 
-            "Busca experimentar, cuestionar y probar", 
+            "Necesita datos, lógica y argumentos",
+            "Prefiere estructura y claridad de normas",
+            "Busca experimentar, cuestionar y probar",
             "Aprende conectando emociones, historias y significados"
           ],
           correcta: 3,
@@ -72,9 +72,9 @@ const PARTE2 = {
           id: "p2t1-005",
           pregunta: "¿Cuál de las siguientes actitudes de los alumnos frente al curso es considerada 'receptiva'?",
           opciones: [
-            "'Todo el mundo lo hace'", 
-            "'Yo conduzco bien, fue mala suerte'", 
-            "'Podría haber hecho las cosas mejor'", 
+            "'Todo el mundo lo hace'",
+            "'Yo conduzco bien, fue mala suerte'",
+            "'Podría haber hecho las cosas mejor'",
             "'Esto no sirve para nada'"
           ],
           correcta: 2,
@@ -85,9 +85,9 @@ const PARTE2 = {
           id: "p2t1-006",
           pregunta: "¿Cuál es el recurso didáctico más potente que menciona el manual para los cursos PxP?",
           opciones: [
-            "Presentaciones PowerPoint con normativa", 
-            "La palabra, la emoción y la experiencia vivencial", 
-            "Exámenes tipo test frecuentes", 
+            "Presentaciones PowerPoint con normativa",
+            "La palabra, la emoción y la experiencia vivencial",
+            "Exámenes tipo test frecuentes",
             "Vídeos de siniestros graves"
           ],
           correcta: 1,
@@ -98,9 +98,9 @@ const PARTE2 = {
           id: "p2t1-007",
           pregunta: "¿Cuál es el frase pedagógica que resume la actitud del buen formador PxP?",
           opciones: [
-            "'No se enseña seguridad vial, se despierta conciencia vial'", 
-            "'La ley es la ley, y hay que cumplirla'", 
-            "'El conductor que no aprende debe perder el permiso'", 
+            "'No se enseña seguridad vial, se despierta conciencia vial'",
+            "'La ley es la ley, y hay que cumplirla'",
+            "'El conductor que no aprende debe perder el permiso'",
             "'La estadística habla por sí sola'"
           ],
           correcta: 0,
@@ -111,9 +111,9 @@ const PARTE2 = {
           id: "p2t1-008",
           pregunta: "¿Qué tipo de evaluación busca en los cursos de reeducación vial según el manual?",
           opciones: [
-            "Calificar numéricamente al alumno para determinar si supera el curso", 
-            "Evidenciar un cambio en actitudes y reflexión del alumno", 
-            "Verificar la memorización de la normativa", 
+            "Calificar numéricamente al alumno para determinar si supera el curso",
+            "Evidenciar un cambio en actitudes y reflexión del alumno",
+            "Verificar la memorización de la normativa",
             "Medir la velocidad de reacción del conductor"
           ],
           correcta: 1,
@@ -124,9 +124,9 @@ const PARTE2 = {
           id: "p2t1-009",
           pregunta: "¿Qué estilo de aprendizaje tiene el alumno 'Analista'?",
           opciones: [
-            "Aprende mediante testimonios y experiencias emocionales", 
-            "Necesita datos, lógica, argumentos, cifras y estudios", 
-            "Prefiere las dinámicas prácticas y juegos de roles", 
+            "Aprende mediante testimonios y experiencias emocionales",
+            "Necesita datos, lógica, argumentos, cifras y estudios",
+            "Prefiere las dinámicas prácticas y juegos de roles",
             "Aprende mejor con protocolos y pasos secuenciales"
           ],
           correcta: 1,
@@ -137,9 +137,9 @@ const PARTE2 = {
           id: "p2t1-010",
           pregunta: "¿Cuáles son los cinco principios del aprendizaje efectivo en adultos mencionados en el manual?",
           opciones: [
-            "Memorización, repetición, evaluación, sanción y refuerzo", 
-            "Participación activa, significado personal, feedback inmediato, respeto mutuo y aprendizaje emocional", 
-            "Teoría, práctica, normativa, evaluación y certificación", 
+            "Memorización, repetición, evaluación, sanción y refuerzo",
+            "Participación activa, significado personal, feedback inmediato, respeto mutuo y aprendizaje emocional",
+            "Teoría, práctica, normativa, evaluación y certificación",
             "Contenido, metodología, materiales, evaluación y seguimiento"
           ],
           correcta: 1,
@@ -150,9 +150,9 @@ const PARTE2 = {
           id: "p2t1-011",
           pregunta: "¿Qué afirma el principio pedagógico: 'Los alumnos aprenden lo que el formador enseña, pero también...'?",
           opciones: [
-            "'...lo que dice el reglamento'", 
-            "'...cómo el formador es'", 
-            "'...lo que les motiva en ese momento'", 
+            "'...lo que dice el reglamento'",
+            "'...cómo el formador es'",
+            "'...lo que les motiva en ese momento'",
             "'...lo que pueden memorizar'"
           ],
           correcta: 1,
@@ -163,9 +163,9 @@ const PARTE2 = {
           id: "p2t1-012",
           pregunta: "¿Qué herramienta de evaluación al final del curso describe el manual como 'dinámica de cierre'?",
           opciones: [
-            "Un examen tipo test de normativa", 
-            "Una prueba de conducción en circuito", 
-            "'Tres aprendizajes que me llevo' o cuestionario de autopercepción", 
+            "Un examen tipo test de normativa",
+            "Una prueba de conducción en circuito",
+            "'Tres aprendizajes que me llevo' o cuestionario de autopercepción",
             "Una escala de actitudes completada por el formador"
           ],
           correcta: 2,
@@ -176,9 +176,9 @@ const PARTE2 = {
           id: "p2t1-013",
           pregunta: "¿Cuándo ha 'cumplido su misión' el formador PxP según el manual?",
           opciones: [
-            "Cuando el alumno aprueba el examen final", 
-            "Cuando el alumno dice: 'Nunca lo había visto así, pero ahora lo entiendo'", 
-            "Cuando el alumno promete no volver a infringir", 
+            "Cuando el alumno aprueba el examen final",
+            "Cuando el alumno dice: 'Nunca lo había visto así, pero ahora lo entiendo'",
+            "Cuando el alumno promete no volver a infringir",
             "Cuando el alumno recupera todos sus puntos"
           ],
           correcta: 1,
@@ -251,9 +251,9 @@ const PARTE2 = {
           id: "p2t2-001",
           pregunta: "¿Cuáles son los tres ejes sobre los que se sostiene la motivación humana según el manual?",
           opciones: [
-            "Incentivo, presión y resultado", 
-            "Sentido, competencia y pertenencia", 
-            "Recompensa, sanción y norma", 
+            "Incentivo, presión y resultado",
+            "Sentido, competencia y pertenencia",
+            "Recompensa, sanción y norma",
             "Emoción, razón y voluntad"
           ],
           correcta: 1,
@@ -264,9 +264,9 @@ const PARTE2 = {
           id: "p2t2-002",
           pregunta: "¿Qué frase del manual resume la importancia de la automotivación del formador?",
           opciones: [
-            "'El formador motivado no solo enseña mejor: contagia entusiasmo y coherencia'", 
-            "'La motivación es innata, no puede enseñarse'", 
-            "'El salario es el principal motivador del formador'", 
+            "'El formador motivado no solo enseña mejor: contagia entusiasmo y coherencia'",
+            "'La motivación es innata, no puede enseñarse'",
+            "'El salario es el principal motivador del formador'",
             "'La motivación depende exclusivamente del grupo'"
           ],
           correcta: 0,
@@ -277,9 +277,9 @@ const PARTE2 = {
           id: "p2t2-003",
           pregunta: "¿Cuáles son los indicadores de descontento grupal que debe detectar el formador?",
           opciones: [
-            "Participación excesiva y críticas constructivas", 
-            "Silencios prolongados, críticas constantes, conversaciones paralelas y aislamiento de participantes", 
-            "Preguntas frecuentes y debate activo", 
+            "Participación excesiva y críticas constructivas",
+            "Silencios prolongados, críticas constantes, conversaciones paralelas y aislamiento de participantes",
+            "Preguntas frecuentes y debate activo",
             "Llegar puntual y participar en las dinámicas"
           ],
           correcta: 1,
@@ -290,9 +290,9 @@ const PARTE2 = {
           id: "p2t2-004",
           pregunta: "¿Cuáles son las características del feedback efectivo según el manual?",
           opciones: [
-            "Diferido, general, crítico y unidireccional", 
-            "Inmediato, concreto, constructivo y equilibrado", 
-            "Formal, escrito, individual y detallado", 
+            "Diferido, general, crítico y unidireccional",
+            "Inmediato, concreto, constructivo y equilibrado",
+            "Formal, escrito, individual y detallado",
             "Subjetivo, emocional, colectivo y repetido"
           ],
           correcta: 1,
@@ -303,9 +303,9 @@ const PARTE2 = {
           id: "p2t2-005",
           pregunta: "¿Cuál de los siguientes enfoques del formador sobre el curso es más efectivo para motivar según el manual?",
           opciones: [
-            "Presentarlo como una sanción merecida por las infracciones", 
-            "Transmitir que 'esto no es un castigo, es una oportunidad'", 
-            "Insistir en las estadísticas de siniestralidad", 
+            "Presentarlo como una sanción merecida por las infracciones",
+            "Transmitir que 'esto no es un castigo, es una oportunidad'",
+            "Insistir en las estadísticas de siniestralidad",
             "Comenzar recordando los puntos que perdió cada alumno"
           ],
           correcta: 1,
@@ -316,9 +316,9 @@ const PARTE2 = {
           id: "p2t2-006",
           pregunta: "¿Qué frase resume la clave fundamental de la motivación según el Tema 2?",
           opciones: [
-            "'Las personas olvidan lo que oyen, pero recuerdan cómo las hiciste sentir'", 
-            "'La normativa es suficiente para motivar'", 
-            "'Sancionar más es la mejor forma de motivar al infractor'", 
+            "'Las personas olvidan lo que oyen, pero recuerdan cómo las hiciste sentir'",
+            "'La normativa es suficiente para motivar'",
+            "'Sancionar más es la mejor forma de motivar al infractor'",
             "'La motivación solo viene de premios económicos'"
           ],
           correcta: 0,
@@ -329,9 +329,9 @@ const PARTE2 = {
           id: "p2t2-007",
           pregunta: "¿Qué dinámica de cierre recomienda el manual para consolidar la motivación al final de cada sesión?",
           opciones: [
-            "Un examen sorpresa de normativa", 
-            "Pedir a cada participante que diga 'una idea que se lleva' o 'un cambio que intentará aplicar'", 
-            "Una proyección de vídeos de siniestros graves", 
+            "Un examen sorpresa de normativa",
+            "Pedir a cada participante que diga 'una idea que se lleva' o 'un cambio que intentará aplicar'",
+            "Una proyección de vídeos de siniestros graves",
             "Revisar la lista de infracciones de cada alumno"
           ],
           correcta: 1,
@@ -342,9 +342,9 @@ const PARTE2 = {
           id: "p2t2-008",
           pregunta: "Según el Tema 2, ¿cómo reencuadra el formador una queja o crítica del grupo?",
           opciones: [
-            "Ignorándola para no interrumpir el flujo de la clase", 
-            "Transformando la queja en reflexión: '¿Qué parte de lo que dices crees que podríamos mejorar entre todos?'", 
-            "Derivando al alumno al psicólogo del programa", 
+            "Ignorándola para no interrumpir el flujo de la clase",
+            "Transformando la queja en reflexión: '¿Qué parte de lo que dices crees que podríamos mejorar entre todos?'",
+            "Derivando al alumno al psicólogo del programa",
             "Aplicando la sanción correspondiente del reglamento"
           ],
           correcta: 1,
@@ -355,9 +355,9 @@ const PARTE2 = {
           id: "p2t2-009",
           pregunta: "¿Qué elementos conforman el enfoque de la motivación por 'Argumentos'?",
           opciones: [
-            "Las sanciones económicas que motivan el cumplimiento", 
-            "Explicar el porqué detrás de cada norma para que el alumno asuma la responsabilidad desde la reflexión", 
-            "Los premios por buena participación", 
+            "Las sanciones económicas que motivan el cumplimiento",
+            "Explicar el porqué detrás de cada norma para que el alumno asuma la responsabilidad desde la reflexión",
+            "Los premios por buena participación",
             "Las estadísticas de siniestralidad"
           ],
           correcta: 1,
@@ -368,9 +368,9 @@ const PARTE2 = {
           id: "p2t2-010",
           pregunta: "¿Cuál es la reflexión final del Tema 2 sobre la motivación?",
           opciones: [
-            "'La verdadera motivación nace del castigo'", 
-            "'La verdadera motivación no nace del castigo, sino del descubrimiento de un motivo para mejorar'", 
-            "'La motivación solo puede imponerse desde la autoridad'", 
+            "'La verdadera motivación nace del castigo'",
+            "'La verdadera motivación no nace del castigo, sino del descubrimiento de un motivo para mejorar'",
+            "'La motivación solo puede imponerse desde la autoridad'",
             "'Sin sanciones no hay motivación'"
           ],
           correcta: 1,
@@ -391,9 +391,9 @@ const PARTE2 = {
           id: "p2t3-001",
           pregunta: "¿Cuál es el estilo de liderazgo educativo óptimo para el formador PxP según el manual?",
           opciones: [
-            "Autoritario, para mantener el control del grupo", 
-            "Permisivo, para favorecer la participación libre", 
-            "Facilitador: equilibra autoridad y participación, escucha, ordena y orienta sin imponer", 
+            "Autoritario, para mantener el control del grupo",
+            "Permisivo, para favorecer la participación libre",
+            "Facilitador: equilibra autoridad y participación, escucha, ordena y orienta sin imponer",
             "Directivo, explicando todo sin hacer preguntas"
           ],
           correcta: 2,
@@ -404,9 +404,9 @@ const PARTE2 = {
           id: "p2t3-002",
           pregunta: "¿Cuál es la idea clave sobre el grupo en el contexto formativo?",
           opciones: [
-            "'El grupo es un problema que gestionar'", 
-            "'El grupo no es un problema que gestionar, sino un recurso que aprovechar'", 
-            "'El grupo debe ser homogéneo para funcionar'", 
+            "'El grupo es un problema que gestionar'",
+            "'El grupo no es un problema que gestionar, sino un recurso que aprovechar'",
+            "'El grupo debe ser homogéneo para funcionar'",
             "'El grupo es secundario respecto al contenido'"
           ],
           correcta: 1,
@@ -417,9 +417,9 @@ const PARTE2 = {
           id: "p2t3-003",
           pregunta: "¿Cuáles son las cinco categorías de técnicas de dinamización grupal descritas en el manual?",
           opciones: [
-            "Activas, pasivas, reflexivas, evaluativas y motivacionales", 
-            "Participativas, persuasivas, de sensibilización/integración, de creación de ambiente y de presentación", 
-            "Individuales, grupales, mixtas, evaluativas y reflexivas", 
+            "Activas, pasivas, reflexivas, evaluativas y motivacionales",
+            "Participativas, persuasivas, de sensibilización/integración, de creación de ambiente y de presentación",
+            "Individuales, grupales, mixtas, evaluativas y reflexivas",
             "Verbales, visuales, auditivas, kinestésicas y emocionales"
           ],
           correcta: 1,
@@ -430,9 +430,9 @@ const PARTE2 = {
           id: "p2t3-004",
           pregunta: "¿Cómo responde el manual que debe actuar el formador ante un participante agresivo?",
           opciones: [
-            "Confrontarle directamente para demostrar autoridad", 
-            "Expulsarle de la sesión si persiste en su actitud", 
-            "Mantener serenidad, no entrar en confrontación y reencuadrar con respeto", 
+            "Confrontarle directamente para demostrar autoridad",
+            "Expulsarle de la sesión si persiste en su actitud",
+            "Mantener serenidad, no entrar en confrontación y reencuadrar con respeto",
             "Ignorarle completamente para no darle protagonismo"
           ],
           correcta: 2,
@@ -443,9 +443,9 @@ const PARTE2 = {
           id: "p2t3-005",
           pregunta: "¿Cuál es el ejercicio recomendado en la primera sesión para romper la dinámica de culpa?",
           opciones: [
-            "Pedir a cada participante que cuente su infracción", 
-            "Pedir a cada participante que comparta una 'experiencia positiva al volante'", 
-            "Mostrar datos estadísticos de siniestralidad", 
+            "Pedir a cada participante que cuente su infracción",
+            "Pedir a cada participante que comparta una 'experiencia positiva al volante'",
+            "Mostrar datos estadísticos de siniestralidad",
             "Revisar la normativa básica del permiso por puntos"
           ],
           correcta: 1,
@@ -456,9 +456,9 @@ const PARTE2 = {
           id: "p2t3-006",
           pregunta: "¿Cuál es la frase guía del Tema 3 sobre el liderazgo en la conducción grupal?",
           opciones: [
-            "'El formador manda; el grupo obedece'", 
-            "'Conducir un grupo es como conducir un vehículo: firmeza en el volante y suavidad en los gestos'", 
-            "'El grupo decide y el formador ejecuta'", 
+            "'El formador manda; el grupo obedece'",
+            "'Conducir un grupo es como conducir un vehículo: firmeza en el volante y suavidad en los gestos'",
+            "'El grupo decide y el formador ejecuta'",
             "'La autoridad es incompatible con la empatía'"
           ],
           correcta: 1,
@@ -469,9 +469,9 @@ const PARTE2 = {
           id: "p2t3-007",
           pregunta: "¿Cómo gestiona el formador a un participante que monopoliza la palabra?",
           opciones: [
-            "Interrumpiéndole directamente", 
-            "Agradecer su aporte y redistribuir el turno: 'Interesante lo que comentas, ¿alguien más quiere aportar algo distinto?'", 
-            "Ignorarle y continuar con la clase", 
+            "Interrumpiéndole directamente",
+            "Agradecer su aporte y redistribuir el turno: 'Interesante lo que comentas, ¿alguien más quiere aportar algo distinto?'",
+            "Ignorarle y continuar con la clase",
             "Cambiarlo de grupo"
           ],
           correcta: 1,
@@ -482,9 +482,9 @@ const PARTE2 = {
           id: "p2t3-008",
           pregunta: "¿Cómo aborda el formador a un participante pasivo que no participa?",
           opciones: [
-            "Presionándole para que intervenga obligatoriamente", 
-            "Registrando su actitud como negativa en el informe", 
-            "No precionarle e incluirle con preguntas suaves: '¿Tú cómo lo ves desde tu experiencia?'", 
+            "Presionándole para que intervenga obligatoriamente",
+            "Registrando su actitud como negativa en el informe",
+            "No presionarle e incluirle con preguntas suaves: '¿Tú cómo lo ves desde tu experiencia?'",
             "Ignorándole para no interrumpir el flujo del grupo"
           ],
           correcta: 2,
@@ -495,9 +495,9 @@ const PARTE2 = {
           id: "p2t3-009",
           pregunta: "¿Qué técnica de presentación describe el 'Semáforo personal' mencionado en el manual?",
           opciones: [
-            "Un ejercicio de señalización vial", 
-            "Verde = lo que hago bien, ámbar = lo que debo mejorar, rojo = lo que quiero cambiar", 
-            "Una clasificación del comportamiento del alumno", 
+            "Un ejercicio de señalización vial",
+            "Verde = lo que hago bien, ámbar = lo que debo mejorar, rojo = lo que quiero cambiar",
+            "Una clasificación del comportamiento del alumno",
             "Un sistema de evaluación del formador"
           ],
           correcta: 1,
@@ -508,9 +508,9 @@ const PARTE2 = {
           id: "p2t3-010",
           pregunta: "¿Qué regla de oro establece el manual sobre los participantes que bloquean el grupo?",
           opciones: [
-            "'Expulsar inmediatamente al que perturba'", 
-            "'Nunca humilles a quien bloquea el grupo. Gánalo con respeto y lo convertirás en aliado'", 
-            "'Ignorar al bloqueador y centrarse en el grupo positivo'", 
+            "'Expulsar inmediatamente al que perturba'",
+            "'Nunca humilles a quien bloquea el grupo. Gánalo con respeto y lo convertirás en aliado'",
+            "'Ignorar al bloqueador y centrarse en el grupo positivo'",
             "'Reportar al bloqueador a la DGT'"
           ],
           correcta: 1,
@@ -521,9 +521,9 @@ const PARTE2 = {
           id: "p2t3-011",
           pregunta: "¿Por qué la 'Dinámica El segundo decisivo' es una técnica de sensibilización / integración?",
           opciones: [
-            "Porque mide el tiempo de reacción del alumno", 
-            "Porque cada uno narra una decisión arriesgada y su consecuencia, despertando empatía y reflexión colectiva", 
-            "Porque simula la toma de decisiones en la conducción", 
+            "Porque mide el tiempo de reacción del alumno",
+            "Porque cada uno narra una decisión arriesgada y su consecuencia, despertando empatía y reflexión colectiva",
+            "Porque simula la toma de decisiones en la conducción",
             "Porque evalúa el conocimiento normativo"
           ],
           correcta: 1,
@@ -534,9 +534,9 @@ const PARTE2 = {
           id: "p2t3-012",
           pregunta: "¿Cómo actúa el grupo como 'espejo emocional' respecto al formador?",
           opciones: [
-            "El grupo refleja siempre el contenido de la clase", 
-            "Si el formador está tenso, el grupo se tensa; si transmite calma, el grupo se regula", 
-            "El grupo imita los gestos físicos del formador", 
+            "El grupo refleja siempre el contenido de la clase",
+            "Si el formador está tenso, el grupo se tensa; si transmite calma, el grupo se regula",
+            "El grupo imita los gestos físicos del formador",
             "El grupo evalúa al formador mediante su participación"
           ],
           correcta: 1,
@@ -609,9 +609,9 @@ const PARTE2 = {
           id: "p2t4-001",
           pregunta: "¿Qué principio básico de comunicación afirma que el sentido del mensaje está en la respuesta del receptor?",
           opciones: [
-            "'Toda conducta comunica, incluso el silencio'", 
-            "'El sentido del mensaje está en la respuesta del receptor, no en la intención del emisor'", 
-            "'La forma es menos importante que el contenido'", 
+            "'Toda conducta comunica, incluso el silencio'",
+            "'El sentido del mensaje está en la respuesta del receptor, no en la intención del emisor'",
+            "'La forma es menos importante que el contenido'",
             "'No existe comunicación neutral'"
           ],
           correcta: 1,
@@ -630,9 +630,9 @@ const PARTE2 = {
           id: "p2t4-003",
           pregunta: "¿Cuáles son los cinco principios de la escucha activa descritos en el manual?",
           opciones: [
-            "Escuchar, responder, preguntar, confirmar y agradecer", 
-            "Atención plena, empatía, reformulación, silencio estratégico y validación", 
-            "Silencio, asertividad, feedback, paciencia y comprensión", 
+            "Escuchar, responder, preguntar, confirmar y agradecer",
+            "Atención plena, empatía, reformulación, silencio estratégico y validación",
+            "Silencio, asertividad, feedback, paciencia y comprensión",
             "Interés, preguntas abiertas, síntesis, confirmación y respeto"
           ],
           correcta: 1,
@@ -643,9 +643,9 @@ const PARTE2 = {
           id: "p2t4-004",
           pregunta: "¿Cuáles son las barreras de comunicación más comunes en el aula vial?",
           opciones: [
-            "El ruido ambiental y las sillas incómodas", 
-            "Emocionales, de autoridad, de lenguaje (tecnicismos), de actitud y de prejuicio", 
-            "El horario de clase y la duración de las sesiones", 
+            "El ruido ambiental y las sillas incómodas",
+            "Emocionales, de autoridad, de lenguaje (tecnicismos), de actitud y de prejuicio",
+            "El horario de clase y la duración de las sesiones",
             "El tamaño del grupo y la falta de materiales"
           ],
           correcta: 1,
@@ -656,9 +656,9 @@ const PARTE2 = {
           id: "p2t4-005",
           pregunta: "¿Cuál es la regla de oro sobre el lenguaje del formador?",
           opciones: [
-            "'El formador debe hablar siempre en términos técnicos'", 
-            "'El formador debe adaptar su lenguaje al grupo, no esperar que el grupo se adapte a él'", 
-            "'El formador debe usar el mismo mensaje para todos los grupos'", 
+            "'El formador debe hablar siempre en términos técnicos'",
+            "'El formador debe adaptar su lenguaje al grupo, no esperar que el grupo se adapte a él'",
+            "'El formador debe usar el mismo mensaje para todos los grupos'",
             "'El formador debe limitarse al contenido del manual'"
           ],
           correcta: 1,
@@ -669,9 +669,9 @@ const PARTE2 = {
           id: "p2t4-006",
           pregunta: "¿Qué diferencia existe entre un mensaje informativo y un mensaje persuasivo?",
           opciones: [
-            "El informativo usa emoción y el persuasivo usa datos", 
-            "El informativo describe datos objetivos; el persuasivo busca generar reflexión o cambio de actitud", 
-            "No hay diferencia práctica entre ambos tipos de mensaje", 
+            "El informativo usa emoción y el persuasivo usa datos",
+            "El informativo describe datos objetivos; el persuasivo busca generar reflexión o cambio de actitud",
+            "No hay diferencia práctica entre ambos tipos de mensaje",
             "El persuasivo usa amenazas; el informativo usa ejemplos"
           ],
           correcta: 1,
@@ -682,9 +682,9 @@ const PARTE2 = {
           id: "p2t4-007",
           pregunta: "¿Cuál es el consejo de oratoria más práctico que da el manual?",
           opciones: [
-            "'Habla solo de lo que dice el manual'", 
-            "'Habla con el grupo, no al grupo'", 
-            "'Limita las sesiones a 30 minutos para mantener la atención'", 
+            "'Habla solo de lo que dice el manual'",
+            "'Habla con el grupo, no al grupo'",
+            "'Limita las sesiones a 30 minutos para mantener la atención'",
             "'Evita las preguntas abiertas para no perder el control'"
           ],
           correcta: 1,
@@ -695,9 +695,9 @@ const PARTE2 = {
           id: "p2t4-008",
           pregunta: "¿Cuál es la reflexión final del Tema 4 sobre la comunicación y la docencia?",
           opciones: [
-            "'La comunicación es un complemento de la docencia'", 
-            "'La comunicación no es un complemento de la docencia: es la docencia misma'", 
-            "'El contenido es más importante que la forma de comunicarlo'", 
+            "'La comunicación es un complemento de la docencia'",
+            "'La comunicación no es un complemento de la docencia: es la docencia misma'",
+            "'El contenido es más importante que la forma de comunicarlo'",
             "'El formador debe minimizar la comunicación para no confundir'"
           ],
           correcta: 1,
@@ -708,9 +708,9 @@ const PARTE2 = {
           id: "p2t4-009",
           pregunta: "¿Cuáles son los componentes del proceso de comunicación mencionados en el manual?",
           opciones: [
-            "Emisor, receptor, mensaje, canal, código, ruido y feedback", 
-            "Hablante, oyente, texto, medio, código y retorno", 
-            "Formador, alumno, contenido, material, lenguaje y evaluación", 
+            "Emisor, receptor, mensaje, canal, código, ruido y feedback",
+            "Hablante, oyente, texto, medio, código y retorno",
+            "Formador, alumno, contenido, material, lenguaje y evaluación",
             "Señal, receptor, decodificación, respuesta y retroalimentación"
           ],
           correcta: 0,
@@ -721,9 +721,9 @@ const PARTE2 = {
           id: "p2t4-010",
           pregunta: "¿Qué recomendación da el manual sobre el uso del silencio en la oratoria?",
           opciones: [
-            "Evitar los silencios para mantener el ritmo de la clase", 
-            "Usar silencios como herramienta pedagógica: invitan a pensar", 
-            "Los silencios solo son aceptables al inicio de cada sesión", 
+            "Evitar los silencios para mantener el ritmo de la clase",
+            "Usar silencios como herramienta pedagógica: invitan a pensar",
+            "Los silencios solo son aceptables al inicio de cada sesión",
             "Los silencios deben llenarse con preguntas retóricas"
           ],
           correcta: 1,
@@ -734,9 +734,9 @@ const PARTE2 = {
           id: "p2t4-011",
           pregunta: "¿Qué estrategia de comunicación recomienda el manual con alumnos difíciles o escépticos?",
           opciones: [
-            "Confrontarles directamente con sus infracciones", 
-            "No tomarse los ataques como personales y usar el humor como puente, manteniendo control emocional", 
-            "Ignorarles para no interrumpir la sesión", 
+            "Confrontarles directamente con sus infracciones",
+            "No tomarse los ataques como personales y usar el humor como puente, manteniendo control emocional",
+            "Ignorarles para no interrumpir la sesión",
             "Expulsarles si persisten en su actitud desafiante"
           ],
           correcta: 1,
@@ -747,9 +747,9 @@ const PARTE2 = {
           id: "p2t4-012",
           pregunta: "¿Cuál es el ejemplo de mensaje persuasivo que ofrece el manual sobre el alcohol?",
           opciones: [
-            "'Las multas por alcoholemia son muy elevadas'", 
-            "'El alcohol está prohibido por la ley de tráfico'", 
-            "'¿De verdad esas dos copas valen más que volver a casa?'", 
+            "'Las multas por alcoholemia son muy elevadas'",
+            "'El alcohol está prohibido por la ley de tráfico'",
+            "'¿De verdad esas dos copas valen más que volver a casa?'",
             "'0,5 g/l es el límite legal para los conductores'"
           ],
           correcta: 2,
@@ -799,10 +799,10 @@ const PARTE2 = {
           id: "p2t4-016",
           pregunta: "Si un alumno cuestiona: 'Es imposible circular a 30 km/h por la ciudad sin entorpecer', un formador no defensivo usando la comunicación asertiva diría...",
           opciones: [
-            "Eso no es verdad, si quieres puedes hacerlo, o asumes la multa'",
-            "Comprendo que te parezca muy lento si piensas en tu tiempo de llegada, ¿les parece igual de lento a los vecinos o peatones si analizamos su seguridad?'",
-            "Te recuerdo que el manual técnico y el RD 970/2020 avalan esto, yo no puedo modificar las leyes'",
-            "De acuerdo, propongámosle a la DGT reformar esto ya que todos opináis igual'"
+            "'Eso no es verdad, si quieres puedes hacerlo, o asumes la multa'",
+            "'Comprendo que te parezca muy lento si piensas en tu tiempo de llegada, ¿les parece igual de lento a los vecinos o peatones si analizamos su seguridad?'",
+            "'Te recuerdo que el manual técnico y el RD 970/2020 avalan esto, yo no puedo modificar las leyes'",
+            "'De acuerdo, propongámosle a la DGT reformar esto ya que todos opináis igual'"
           ],
           correcta: 1,
           explicacion: "El formador asertivo no confronta, valida la emoción subyacente y formula una pregunta abierta que hace dudar al alumno trasladándolo al contexto solidario.",
@@ -822,9 +822,9 @@ const PARTE2 = {
           id: "p2t5-001",
           pregunta: "¿Cuáles son las tres dimensiones que componen una actitud según el manual?",
           opciones: [
-            "Verbal, no verbal y conductual", 
-            "Cognitiva (lo que pienso), afectiva (lo que siento) y conductual (lo que hago)", 
-            "Normativa, emocional y técnica", 
+            "Verbal, no verbal y conductual",
+            "Cognitiva (lo que pienso), afectiva (lo que siento) y conductual (lo que hago)",
+            "Normativa, emocional y técnica",
             "Social, individual y cultural"
           ],
           correcta: 1,
@@ -835,9 +835,9 @@ const PARTE2 = {
           id: "p2t5-002",
           pregunta: "¿Cuáles son las cuatro fases del cambio actitudinal que describe el manual?",
           opciones: [
-            "Conocimiento, comprensión, aplicación y evaluación", 
-            "Resistencia, duda, comprensión y aceptación", 
-            "Negación, negociación, aceptación y compromiso", 
+            "Conocimiento, comprensión, aplicación y evaluación",
+            "Resistencia, duda, comprensión y aceptación",
+            "Negación, negociación, aceptación y compromiso",
             "Conciencia, motivación, acción y mantenimiento"
           ],
           correcta: 1,
@@ -848,9 +848,9 @@ const PARTE2 = {
           id: "p2t5-003",
           pregunta: "¿Qué técnica de cambio actitudinal consiste en mostrar el conflicto entre lo que dice el alumno y lo que hace?",
           opciones: [
-            "Reflexión guiada", 
-            "Confrontación empática", 
-            "Modelado", 
+            "Reflexión guiada",
+            "Confrontación empática",
+            "Modelado",
             "Reforzamiento positivo"
           ],
           correcta: 1,
@@ -861,9 +861,9 @@ const PARTE2 = {
           id: "p2t5-004",
           pregunta: "¿Cuáles son los cuatro tipos de resistencia al cambio que describe el manual?",
           opciones: [
-            "Activa, pasiva, abierta y encubierta", 
-            "Intelectual, emocional, cultural y reactiva", 
-            "Verbal, no verbal, grupal e individual", 
+            "Activa, pasiva, abierta y encubierta",
+            "Intelectual, emocional, cultural y reactiva",
+            "Verbal, no verbal, grupal e individual",
             "Normativa, actitudinal, técnica y personal"
           ],
           correcta: 1,
@@ -874,9 +874,9 @@ const PARTE2 = {
           id: "p2t5-005",
           pregunta: "¿Qué estrategia de canalización de la resistencia consiste en 'validar la emoción, no la conducta'?",
           opciones: [
-            "Escuchar antes de corregir y reconocer los sentimientos sin justificar el comportamiento", 
-            "Confrontar directamente la conducta inapropiada", 
-            "Ignorar la emoción y centrarse en la normativa", 
+            "Escuchar antes de corregir y reconocer los sentimientos sin justificar el comportamiento",
+            "Confrontar directamente la conducta inapropiada",
+            "Ignorar la emoción y centrarse en la normativa",
             "Derivar al alumno al psicólogo del programa"
           ],
           correcta: 0,
@@ -887,9 +887,9 @@ const PARTE2 = {
           id: "p2t5-006",
           pregunta: "¿Cuál es la regla práctica del Tema 5 sobre el cambio de actitudes?",
           opciones: [
-            "'Di siempre lo que está mal para que el alumno corrija'", 
-            "'No digas lo que está mal: haz que lo descubran'", 
-            "'La sanción es la mejor herramienta de cambio'", 
+            "'Di siempre lo que está mal para que el alumno corrija'",
+            "'No digas lo que está mal: haz que lo descubran'",
+            "'La sanción es la mejor herramienta de cambio'",
             "'Repite el mensaje hasta que el alumno lo interiorice'"
           ],
           correcta: 1,
@@ -900,9 +900,9 @@ const PARTE2 = {
           id: "p2t5-007",
           pregunta: "¿Cuáles son los cuatro pilares de la cultura de la seguridad vial como valor permanente?",
           opciones: [
-            "Normativa, sanciones, tecnología y educación", 
-            "Respeto, responsabilidad, autocontrol y compromiso social", 
-            "Velocidad, prudencia, señalización y mantenimiento", 
+            "Normativa, sanciones, tecnología y educación",
+            "Respeto, responsabilidad, autocontrol y compromiso social",
+            "Velocidad, prudencia, señalización y mantenimiento",
             "Prevención, detección, corrección y evaluación"
           ],
           correcta: 1,
@@ -913,9 +913,9 @@ const PARTE2 = {
           id: "p2t5-008",
           pregunta: "¿Cuál es la diferencia entre el 'modelo antiguo' y el 'modelo actual' de cultura vial según el manual?",
           opciones: [
-            "El modelo antiguo usa tecnología y el actual usa educación", 
-            "El modelo antiguo cumple por miedo a la multa; el modelo actual cumple por respeto a la vida", 
-            "No existe diferencia real entre ambos modelos", 
+            "El modelo antiguo usa tecnología y el actual usa educación",
+            "El modelo antiguo cumple por miedo a la multa; el modelo actual cumple por respeto a la vida",
+            "No existe diferencia real entre ambos modelos",
             "El modelo antiguo es más eficaz que el actual"
           ],
           correcta: 1,
@@ -926,9 +926,9 @@ const PARTE2 = {
           id: "p2t5-009",
           pregunta: "¿Qué indica que un alumno muestra una actitud de 'apoyo al cambio' o actitud positiva?",
           opciones: [
-            "Que llega puntual y no hace preguntas", 
-            "Que muestra escucha activa, acepta la responsabilidad, pregunta genuinamente y muestra empatía con las víctimas", 
-            "Que hace todas las actividades sin protestar", 
+            "Que llega puntual y no hace preguntas",
+            "Que muestra escucha activa, acepta la responsabilidad, pregunta genuinamente y muestra empatía con las víctimas",
+            "Que hace todas las actividades sin protestar",
             "Que firma la asistencia y realiza el test final"
           ],
           correcta: 1,
@@ -939,9 +939,9 @@ const PARTE2 = {
           id: "p2t5-010",
           pregunta: "¿Cuál es la reflexión final del Tema 5 sobre el objetivo del cambio actitudinal?",
           opciones: [
-            "El alumno debe tener miedo de volver a infringir", 
-            "Cuando una persona deja de pensar 'tengo que hacerlo' y empieza a pensar 'quiero hacerlo mejor', el cambio es real y duradero", 
-            "El cambio actitudinal debe producirse en una sola sesión", 
+            "El alumno debe tener miedo de volver a infringir",
+            "Cuando una persona deja de pensar 'tengo que hacerlo' y empieza a pensar 'quiero hacerlo mejor', el cambio es real y duradero",
+            "El cambio actitudinal debe producirse en una sola sesión",
             "La normativa es el mejor instrumento de cambio actitudinal"
           ],
           correcta: 1,
@@ -952,9 +952,9 @@ const PARTE2 = {
           id: "p2t5-011",
           pregunta: "¿Qué técnica de cambio actitudinal describe el manual como 'modelado'?",
           opciones: [
-            "Presentar modelos de buena conducción en vídeo", 
-            "El formador actúa como modelo de respeto y serenidad; los alumnos aprenden del ejemplo", 
-            "Usar maniquíes de crash test para mostrar lesiones", 
+            "Presentar modelos de buena conducción en vídeo",
+            "El formador actúa como modelo de respeto y serenidad; los alumnos aprenden del ejemplo",
+            "Usar maniquíes de crash test para mostrar lesiones",
             "Pedir a los alumnos que imiten comportamientos seguros"
           ],
           correcta: 1,
@@ -965,9 +965,9 @@ const PARTE2 = {
           id: "p2t5-012",
           pregunta: "¿Qué pregunta didáctica del manual ejemplifica una 'reflexión guiada' sobre la cultura vial?",
           opciones: [
-            "'¿Conoces el límite de velocidad en esta vía?'", 
-            "'¿Qué es peor: no conocer la norma o creer que tú estás por encima de ella?'", 
-            "'¿Cuántos puntos perdiste con esa infracción?'", 
+            "'¿Conoces el límite de velocidad en esta vía?'",
+            "'¿Qué es peor: no conocer la norma o creer que tú estás por encima de ella?'",
+            "'¿Cuántos puntos perdiste con esa infracción?'",
             "'¿Cuál es el límite legal de alcoholemia?'"
           ],
           correcta: 1,
